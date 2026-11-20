@@ -39,9 +39,7 @@ testes estatísticos estão no Capítulo 4 do TCC e nos arquivos de `resultados/
 │   ├── features_asm_estrutural.csv    versão intermediária das características do assembly
 │   └── features_c_estrutural.csv      características do código-fonte C (entrada dos modelos)
 ├── resultados/                        CSVs e logs dos experimentos finais (v21, v22, v23)
-├── analises_tcc/                      scripts das figuras/tabelas do TCC e seus dados
-├── historico_experimentos/            versões anteriores dos experimentos (v1–v20), só para consulta
-└── *.py                               pipeline final (ver abaixo)
+└── historico_experimentos/            versões anteriores dos experimentos (v1–v20), só para consulta
 ```
 
 ## Pipeline final
