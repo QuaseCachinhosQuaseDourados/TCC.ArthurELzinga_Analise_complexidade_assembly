@@ -1,0 +1,1479 @@
+=== A_Boolean_Matrix_Question.c ===
+codigos_c_limpos\A_Boolean_Matrix_Question.c:14:19: error: unknown type name 'boolmat'; did you mean 'bool'?
+ void modifyMatrix(boolmat[R][C])
+                   ^~~~~~~
+                   bool
+codigos_c_limpos\A_Boolean_Matrix_Question.c:49:18: error: unknown type name 'boolmat'; did you mean 'bool'?
+ void printMatrix(boolmat[R][C])
+                  ^~~~~~~
+                  bool
+codigos_c_limpos\A_Boolean_Matrix_Question.c: In function 'main':
+codigos_c_limpos\A_Boolean_Matrix_Question.c:62:5: error: 'boolmat' undeclared (first use in this function); did you mean 'bool'?
+     boolmat[R][C] = { { 1, 0, 0, 1 },
+     ^~~~~~~
+     bool
+codigos_c_limpos\A_Boolean_Matrix_Question.c:62:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\A_Boolean_Matrix_Question.c:62:21: error: expected expression before '{' token
+     boolmat[R][C] = { { 1, 0, 0, 1 },
+                     ^
+codigos_c_limpos\A_Boolean_Matrix_Question.c:67:17: error: 'mat' undeclared (first use in this function); did you mean 'main'?
+     printMatrix(mat);
+                 ^~~
+                 main
+
+=== A_Boolean_Matrix_Question_2.c ===
+codigos_c_limpos\A_Boolean_Matrix_Question_2.c:14:19: error: unknown type name 'boolmat'; did you mean 'bool'?
+ void modifyMatrix(boolmat[R][C])
+                   ^~~~~~~
+                   bool
+codigos_c_limpos\A_Boolean_Matrix_Question_2.c:49:18: error: unknown type name 'boolmat'; did you mean 'bool'?
+ void printMatrix(boolmat[R][C])
+                  ^~~~~~~
+                  bool
+codigos_c_limpos\A_Boolean_Matrix_Question_2.c: In function 'main':
+codigos_c_limpos\A_Boolean_Matrix_Question_2.c:62:5: error: 'boolmat' undeclared (first use in this function); did you mean 'bool'?
+     boolmat[R][C] = { { 1, 0, 0, 1 },
+     ^~~~~~~
+     bool
+codigos_c_limpos\A_Boolean_Matrix_Question_2.c:62:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\A_Boolean_Matrix_Question_2.c:62:21: error: expected expression before '{' token
+     boolmat[R][C] = { { 1, 0, 0, 1 },
+                     ^
+codigos_c_limpos\A_Boolean_Matrix_Question_2.c:67:17: error: 'mat' undeclared (first use in this function); did you mean 'main'?
+     printMatrix(mat);
+                 ^~~
+                 main
+
+=== A_Boolean_Matrix_Question_using_O(1)_Space.c ===
+codigos_c_limpos\A_Boolean_Matrix_Question_using_O(1)_Space.c: In function 'modifyMatrix':
+codigos_c_limpos\A_Boolean_Matrix_Question_using_O(1)_Space.c:17:5: error: 'boolrow_flag' undeclared (first use in this function)
+     boolrow_flag = false;
+     ^~~~~~~~~~~~
+codigos_c_limpos\A_Boolean_Matrix_Question_using_O(1)_Space.c:17:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\A_Boolean_Matrix_Question_using_O(1)_Space.c:18:5: error: 'boolcol_flag' undeclared (first use in this function)
+     boolcol_flag = false;
+     ^~~~~~~~~~~~
+codigos_c_limpos\A_Boolean_Matrix_Question_using_O(1)_Space.c:25:17: error: 'row_flag' undeclared (first use in this function)
+                 row_flag = true;
+                 ^~~~~~~~
+codigos_c_limpos\A_Boolean_Matrix_Question_using_O(1)_Space.c:28:17: error: 'col_flag' undeclared (first use in this function)
+                 col_flag = true;
+                 ^~~~~~~~
+
+=== A_data_structure_for_n_elements_and_O(1)_operations.c ===
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations.c: In function 'initialize':
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations.c:9:3: error: 'boolA' undeclared (first use in this function)
+   boolA[n];
+   ^~~~~
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations.c:9:3: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations.c:11:5: error: 'A' undeclared (first use in this function)
+     A[i] = {0}; // or A[n] = {false};
+     ^
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations.c:11:12: error: expected expression before '{' token
+     A[i] = {0}; // or A[n] = {false};
+            ^
+
+=== A_data_structure_for_n_elements_and_O(1)_operations_2.c ===
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations_2.c: In function 'insert':
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations_2.c:10:4: error: 'A' undeclared (first use in this function)
+    A[i] = 1; // Or A[i] = true;
+    ^
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations_2.c:10:4: note: each undeclared identifier is reported only once for each function it appears in
+
+=== A_data_structure_for_n_elements_and_O(1)_operations_3.c ===
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations_3.c: In function 'delete':
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations_3.c:10:3: error: 'A' undeclared (first use in this function)
+   A[i] = 0;  // Or A[i] = false;
+   ^
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations_3.c:10:3: note: each undeclared identifier is reported only once for each function it appears in
+
+=== A_data_structure_for_n_elements_and_O(1)_operations_4.c ===
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations_4.c: In function 'boolfind':
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations_4.c:10:12: error: 'A' undeclared (first use in this function)
+     return A[i];
+            ^
+codigos_c_limpos\A_data_structure_for_n_elements_and_O(1)_operations_4.c:10:12: note: each undeclared identifier is reported only once for each function it appears in
+
+=== Add_a_node_at_the_end_in_a_Doubly_Linked_List.c ===
+codigos_c_limpos\Add_a_node_at_the_end_in_a_Doubly_Linked_List.c: In function 'append':
+codigos_c_limpos\Add_a_node_at_the_end_in_a_Doubly_Linked_List.c:13:39: error: invalid application of 'sizeof' to incomplete type 'struct Node'
+         = (struct Node*)malloc(sizeof(struct Node));
+                                       ^~~~~~
+codigos_c_limpos\Add_a_node_at_the_end_in_a_Doubly_Linked_List.c:18:13: error: dereferencing pointer to incomplete type 'struct Node'
+     new_node->data = new_data;
+             ^~
+codigos_c_limpos\Add_a_node_at_the_end_in_a_Doubly_Linked_List.c:22:22: error: 'NULL' undeclared (first use in this function)
+     new_node->next = NULL;
+                      ^~~~
+codigos_c_limpos\Add_a_node_at_the_end_in_a_Doubly_Linked_List.c:22:22: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+codigos_c_limpos\Add_a_node_at_the_end_in_a_Doubly_Linked_List.c:1:1:
++#include <stddef.h>
+ /* Problema: Add a node at the end in a Doubly Linked List:
+codigos_c_limpos\Add_a_node_at_the_end_in_a_Doubly_Linked_List.c:22:22:
+     new_node->next = NULL;
+                      ^~~~
+codigos_c_limpos\Add_a_node_at_the_end_in_a_Doubly_Linked_List.c:22:22: note: each undeclared identifier is reported only once for each function it appears in
+
+=== Add_a_node_in_between_two_nodes.c ===
+codigos_c_limpos\Add_a_node_in_between_two_nodes.c: In function 'insertAfter':
+codigos_c_limpos\Add_a_node_in_between_two_nodes.c:12:21: error: 'NULL' undeclared (first use in this function)
+     if(prev_node == NULL) {
+                     ^~~~
+codigos_c_limpos\Add_a_node_in_between_two_nodes.c:12:21: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+codigos_c_limpos\Add_a_node_in_between_two_nodes.c:1:1:
++#include <stddef.h>
+ /* Problema: Add a node in between two nodes:
+codigos_c_limpos\Add_a_node_in_between_two_nodes.c:12:21:
+     if(prev_node == NULL) {
+                     ^~~~
+codigos_c_limpos\Add_a_node_in_between_two_nodes.c:12:21: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Add_a_node_in_between_two_nodes.c:19:39: error: invalid application of 'sizeof' to incomplete type 'struct Node'
+         = (struct Node*)malloc(sizeof(struct Node));
+                                       ^~~~~~
+codigos_c_limpos\Add_a_node_in_between_two_nodes.c:22:13: error: dereferencing pointer to incomplete type 'struct Node'
+     new_node->data = new_data;
+             ^~
+
+=== Binary_Tree_to_Binary_Search_Tree_Conversion.c ===
+codigos_c_limpos\Binary_Tree_to_Binary_Search_Tree_Conversion.c: In function 'binaryTreeToBST':
+codigos_c_limpos\Binary_Tree_to_Binary_Search_Tree_Conversion.c:83:16: error: 'newint' undeclared (first use in this function); did you mean 'rewind'?
+     int* arr = newint[n];
+                ^~~~~~
+                rewind
+codigos_c_limpos\Binary_Tree_to_Binary_Search_Tree_Conversion.c:83:16: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Binary_Tree_to_Binary_Search_Tree_Conversion.c:95:5: error: 'delete' undeclared (first use in this function)
+     delete[] arr;
+     ^~~~~~
+codigos_c_limpos\Binary_Tree_to_Binary_Search_Tree_Conversion.c:95:12: error: expected expression before ']' token
+     delete[] arr;
+            ^
+codigos_c_limpos\Binary_Tree_to_Binary_Search_Tree_Conversion.c: In function 'newNode':
+codigos_c_limpos\Binary_Tree_to_Binary_Search_Tree_Conversion.c:101:25: error: 'newstructnode' undeclared (first use in this function)
+     struct node* temp = newstructnode;
+                         ^~~~~~~~~~~~~
+
+=== Breadth_First_Search_or_BFS_for_a_Graph.c ===
+codigos_c_limpos\Breadth_First_Search_or_BFS_for_a_Graph.c:19:5: error: expected specifier-qualifier-list before 'booladj'
+     booladj[MAX_VERTICES][MAX_VERTICES];
+     ^~~~~~~
+codigos_c_limpos\Breadth_First_Search_or_BFS_for_a_Graph.c: In function 'Graph_create':
+codigos_c_limpos\Breadth_First_Search_or_BFS_for_a_Graph.c:30:14: error: 'Graph' {aka 'struct Graph_t'} has no member named 'adj'
+             g->adj[i][j] = false;
+              ^~
+codigos_c_limpos\Breadth_First_Search_or_BFS_for_a_Graph.c: In function 'Graph_addEdge':
+codigos_c_limpos\Breadth_First_Search_or_BFS_for_a_Graph.c:44:6: error: 'Graph' {aka 'struct Graph_t'} has no member named 'adj'
+     g->adj[v][w] = true;
+      ^~
+codigos_c_limpos\Breadth_First_Search_or_BFS_for_a_Graph.c: In function 'Graph_BFS':
+codigos_c_limpos\Breadth_First_Search_or_BFS_for_a_Graph.c:51:5: error: 'boolvisited' undeclared (first use in this function)
+     boolvisited[MAX_VERTICES];
+     ^~~~~~~~~~~
+codigos_c_limpos\Breadth_First_Search_or_BFS_for_a_Graph.c:51:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Breadth_First_Search_or_BFS_for_a_Graph.c:53:9: error: 'visited' undeclared (first use in this function)
+         visited[i] = false;
+         ^~~~~~~
+codigos_c_limpos\Breadth_First_Search_or_BFS_for_a_Graph.c:76:17: error: 'Graph' {aka 'struct Graph_t'} has no member named 'adj'
+             if(g->adj[s][adjacent] && !visited[adjacent]) {
+                 ^~
+
+=== Check_for_Balanced_Brackets_in_an_expression_(well-formedness).c ===
+codigos_c_limpos\Check_for_Balanced_Brackets_in_an_expression_(well-formedness).c:25:25: error: two or more data types in declaration specifiers
+ boolisMatchingPair(char char acter1, char char acter2)
+                         ^~~~
+codigos_c_limpos\Check_for_Balanced_Brackets_in_an_expression_(well-formedness).c:25:43: error: two or more data types in declaration specifiers
+ boolisMatchingPair(char char acter1, char char acter2)
+                                           ^~~~
+codigos_c_limpos\Check_for_Balanced_Brackets_in_an_expression_(well-formedness).c: In function 'boolisMatchingPair':
+codigos_c_limpos\Check_for_Balanced_Brackets_in_an_expression_(well-formedness).c:27:8: error: expected expression before 'char'
+     if(char acter1 == '('&& char acter2 == ')')
+        ^~~~
+codigos_c_limpos\Check_for_Balanced_Brackets_in_an_expression_(well-formedness).c:29:13: error: expected expression before 'char'
+     else if(char acter1 == '{'&& char acter2 == '}')
+             ^~~~
+codigos_c_limpos\Check_for_Balanced_Brackets_in_an_expression_(well-formedness).c:31:13: error: expected expression before 'char'
+     else if(char acter1 == '['&& char acter2 == ']')
+             ^~~~
+
+=== Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c ===
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c: In function 'compareX':
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:27:5: error: unknown type name 'Point'; use 'struct' keyword to refer to the type
+     Point *p1 = (Point *)a,  *p2 = (Point *)b;
+     ^~~~~
+     struct 
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:27:18: error: 'Point' undeclared (first use in this function)
+     Point *p1 = (Point *)a,  *p2 = (Point *)b;
+                  ^~~~~
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:27:18: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:27:25: error: expected expression before ')' token
+     Point *p1 = (Point *)a,  *p2 = (Point *)b;
+                         ^
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:28:14: error: request for member 'x' in something not a structure or union
+     return(p1->x - p2->x);
+              ^~
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:28:20: error: 'p2' undeclared (first use in this function); did you mean 'p1'?
+     return(p1->x - p2->x);
+                    ^~
+                    p1
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c: In function 'compareY':
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:33:5: error: unknown type name 'Point'; use 'struct' keyword to refer to the type
+     Point *p1 = (Point *)a,   *p2 = (Point *)b;
+     ^~~~~
+     struct 
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:33:18: error: 'Point' undeclared (first use in this function)
+     Point *p1 = (Point *)a,   *p2 = (Point *)b;
+                  ^~~~~
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:33:25: error: expected expression before ')' token
+     Point *p1 = (Point *)a,   *p2 = (Point *)b;
+                         ^
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:34:14: error: request for member 'y' in something not a structure or union
+     return(p1->y - p2->y);
+              ^~
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:34:20: error: 'p2' undeclared (first use in this function); did you mean 'p1'?
+     return(p1->y - p2->y);
+                    ^~
+                    p1
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c: At top level:
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:38:12: error: unknown type name 'Point'; did you mean 'int'?
+ float dist(Point p1, Point p2)
+            ^~~~~
+            int
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:38:22: error: unknown type name 'Point'; did you mean 'int'?
+ float dist(Point p1, Point p2)
+                      ^~~~~
+                      int
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:47:18: error: unknown type name 'Point'; did you mean 'int'?
+ float bruteForce(Point P[], int n)
+                  ^~~~~
+                  int
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:69:20: error: unknown type name 'Point'; did you mean 'int'?
+ float stripClosest(Point strip[], int size, float d)
+                    ^~~~~
+                    int
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:88:19: error: unknown type name 'Point'; did you mean 'int'?
+ float closestUtil(Point P[], int n)
+                   ^~~~~
+                   int
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:122:15: error: unknown type name 'Point'; did you mean 'int'?
+ float closest(Point P[], int n)
+               ^~~~~
+               int
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c: In function 'main':
+codigos_c_limpos\Closest_Pair_of_Points_using_Divide_and_Conquer_algorithm.c:133:5: error: unknown type name 'Point'; use 'struct' keyword to refer to the type
+     Point P[] = {{2, 3}, {12, 30}, {40, 50}, {5, 1}, {12, 10}, {3, 4}};
+     ^~~~~
+     struct
+
+=== Divide_and_Conquer_Set_5_(Strassen’s_Matrix_Multiplication).c ===
+codigos_c_limpos\Divide_and_Conquer_Set_5_(Strassen’s_Matrix_Multiplication).c:7:23: error: 'N' undeclared here (not in a function)
+ void multiply(int A[][N], int B[][N], int C[][N])
+                       ^
+codigos_c_limpos\Divide_and_Conquer_Set_5_(Strassen’s_Matrix_Multiplication).c: In function 'multiply':
+codigos_c_limpos\Divide_and_Conquer_Set_5_(Strassen’s_Matrix_Multiplication).c:9:24: error: 'N' undeclared (first use in this function)
+     for(int i = 0; i < N; i++)
+                        ^
+codigos_c_limpos\Divide_and_Conquer_Set_5_(Strassen’s_Matrix_Multiplication).c:9:24: note: each undeclared identifier is reported only once for each function it appears in
+
+=== Find_a_pair_with_given_sum_in_a_Balanced_BST.c ===
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c: In function 'boolisPairPresent':
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:75:5: error: 'booldone1' undeclared (first use in this function)
+     booldone1 = false, do ne2 = false;
+     ^~~~~~~~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:75:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:75:17: error: 'false' undeclared (first use in this function); did you mean 'fclose'?
+     booldone1 = false, do ne2 = false;
+                 ^~~~~
+                 fclose
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:75:24: error: expected expression before 'do'
+     booldone1 = false, do ne2 = false;
+                        ^~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:84:15: error: expected expression before 'do'
+         while(do ne1 == false) {
+               ^~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:91:24: error: 'ne1' undeclared (first use in this function)
+                     do ne1 = 1;
+                        ^~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:92:17: error: expected 'while' before 'else'
+                 else{
+                 ^~~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:104:15: error: expected expression before 'do'
+         while(do ne2 == false) {
+               ^~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:111:24: error: 'ne2' undeclared (first use in this function)
+                     do ne2 = 1;
+                        ^~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:112:17: error: expected 'while' before 'else'
+                 else{
+                 ^~~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:125:20: error: 'true' undeclared (first use in this function); did you mean 'free'?
+             return true;
+                    ^~~~
+                    free
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:135:9: error: expected 'while' before 'else'
+         else if((val1 + val2) > target)
+         ^~~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c: In function 'main':
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST.c:172:39: error: 'false' undeclared (first use in this function); did you mean 'fclose'?
+     if(isPairPresent(root, target) == false)
+                                       ^~~~~
+                                       fclose
+
+=== Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c ===
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c: In function 'boolisPairPresent':
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:75:5: error: 'booldone1' undeclared (first use in this function)
+     booldone1 = false, do ne2 = false;
+     ^~~~~~~~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:75:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:75:17: error: 'false' undeclared (first use in this function); did you mean 'fclose'?
+     booldone1 = false, do ne2 = false;
+                 ^~~~~
+                 fclose
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:75:24: error: expected expression before 'do'
+     booldone1 = false, do ne2 = false;
+                        ^~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:84:15: error: expected expression before 'do'
+         while(do ne1 == false) {
+               ^~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:91:24: error: 'ne1' undeclared (first use in this function)
+                     do ne1 = 1;
+                        ^~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:92:17: error: expected 'while' before 'else'
+                 else{
+                 ^~~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:104:15: error: expected expression before 'do'
+         while(do ne2 == false) {
+               ^~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:111:24: error: 'ne2' undeclared (first use in this function)
+                     do ne2 = 1;
+                        ^~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:112:17: error: expected 'while' before 'else'
+                 else{
+                 ^~~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:125:20: error: 'true' undeclared (first use in this function); did you mean 'free'?
+             return true;
+                    ^~~~
+                    free
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:135:9: error: expected 'while' before 'else'
+         else if((val1 + val2) > target)
+         ^~~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c: In function 'main':
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_2.c:172:39: error: 'false' undeclared (first use in this function); did you mean 'fclose'?
+     if(isPairPresent(root, target) == false)
+                                       ^~~~~
+                                       fclose
+
+=== Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c ===
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c: In function 'boolisPairPresent':
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:75:5: error: 'booldone1' undeclared (first use in this function)
+     booldone1 = false, do ne2 = false;
+     ^~~~~~~~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:75:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:75:17: error: 'false' undeclared (first use in this function); did you mean 'fclose'?
+     booldone1 = false, do ne2 = false;
+                 ^~~~~
+                 fclose
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:75:24: error: expected expression before 'do'
+     booldone1 = false, do ne2 = false;
+                        ^~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:84:15: error: expected expression before 'do'
+         while(do ne1 == false) {
+               ^~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:91:24: error: 'ne1' undeclared (first use in this function)
+                     do ne1 = 1;
+                        ^~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:92:17: error: expected 'while' before 'else'
+                 else{
+                 ^~~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:104:15: error: expected expression before 'do'
+         while(do ne2 == false) {
+               ^~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:111:24: error: 'ne2' undeclared (first use in this function)
+                     do ne2 = 1;
+                        ^~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:112:17: error: expected 'while' before 'else'
+                 else{
+                 ^~~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:125:20: error: 'true' undeclared (first use in this function); did you mean 'free'?
+             return true;
+                    ^~~~
+                    free
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:135:9: error: expected 'while' before 'else'
+         else if((val1 + val2) > target)
+         ^~~~
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c: In function 'main':
+codigos_c_limpos\Find_a_pair_with_given_sum_in_a_Balanced_BST_3.c:172:39: error: 'false' undeclared (first use in this function); did you mean 'fclose'?
+     if(isPairPresent(root, target) == false)
+                                       ^~~~~
+                                       fclose
+
+=== Generalized_Suffix_Tree.c ===
+codigos_c_limpos\Generalized_Suffix_Tree.c: In function 'extendSuffixTree':
+codigos_c_limpos\Generalized_Suffix_Tree.c:132:32: error: expected ')' before ']' token
+         if(activeNode->children] == NULL)
+           ~                    ^
+                                )
+codigos_c_limpos\Generalized_Suffix_Tree.c:132:32: error: expected statement before ']' token
+codigos_c_limpos\Generalized_Suffix_Tree.c:132:34: error: expected expression before '==' token
+         if(activeNode->children] == NULL)
+                                  ^~
+codigos_c_limpos\Generalized_Suffix_Tree.c:132:41: error: expected statement before ')' token
+         if(activeNode->children] == NULL)
+                                         ^
+codigos_c_limpos\Generalized_Suffix_Tree.c:135:33: error: expected ';' before ']' token
+             activeNode->children] =
+                                 ^
+                                 ;
+codigos_c_limpos\Generalized_Suffix_Tree.c:135:33: error: expected statement before ']' token
+codigos_c_limpos\Generalized_Suffix_Tree.c:135:35: error: expected expression before '=' token
+             activeNode->children] =
+                                   ^
+codigos_c_limpos\Generalized_Suffix_Tree.c:153:9: error: 'else' without a previous 'if'
+         else
+         ^~~~
+codigos_c_limpos\Generalized_Suffix_Tree.c:157:46: error: expected ',' or ';' before ']' token
+             Node *next = activeNode->children];
+                                              ^
+codigos_c_limpos\Generalized_Suffix_Tree.c:195:33: error: expected ';' before ']' token
+             activeNode->children] = split;
+                                 ^
+                                 ;
+codigos_c_limpos\Generalized_Suffix_Tree.c:195:33: error: expected statement before ']' token
+codigos_c_limpos\Generalized_Suffix_Tree.c:195:35: error: expected expression before '=' token
+             activeNode->children] = split;
+                                   ^
+codigos_c_limpos\Generalized_Suffix_Tree.c:198:28: error: expected ';' before ']' token
+             split->children] = newNode(pos, &leafEnd);
+                            ^
+                            ;
+codigos_c_limpos\Generalized_Suffix_Tree.c:198:28: error: expected statement before ']' token
+codigos_c_limpos\Generalized_Suffix_Tree.c:198:30: error: expected expression before '=' token
+             split->children] = newNode(pos, &leafEnd);
+                              ^
+codigos_c_limpos\Generalized_Suffix_Tree.c:200:28: error: expected ';' before ']' token
+             split->children] = next;
+                            ^
+                            ;
+codigos_c_limpos\Generalized_Suffix_Tree.c:200:28: error: expected statement before ']' token
+codigos_c_limpos\Generalized_Suffix_Tree.c:200:30: error: expected expression before '=' token
+             split->children] = next;
+                              ^
+
+=== Given_a_number,_find_the_next_smallest_palindrome_2.c ===
+codigos_c_limpos\Given_a_number,_find_the_next_smallest_palindrome_2.c: In function 'generateNextPalindromeUtil':
+codigos_c_limpos\Given_a_number,_find_the_next_smallest_palindrome_2.c:23:5: error: 'boolleftsmaller' undeclared (first use in this function)
+     boolleftsmaller =false;
+     ^~~~~~~~~~~~~~~
+codigos_c_limpos\Given_a_number,_find_the_next_smallest_palindrome_2.c:23:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Given_a_number,_find_the_next_smallest_palindrome_2.c:23:22: error: 'false' undeclared (first use in this function); did you mean 'fclose'?
+     boolleftsmaller =false;
+                      ^~~~~
+                      fclose
+codigos_c_limpos\Given_a_number,_find_the_next_smallest_palindrome_2.c:38:9: error: 'leftsmaller' undeclared (first use in this function)
+         leftsmaller =true;
+         ^~~~~~~~~~~
+codigos_c_limpos\Given_a_number,_find_the_next_smallest_palindrome_2.c:38:22: error: 'true' undeclared (first use in this function)
+         leftsmaller =true;
+                      ^~~~
+
+=== Hamiltonian_Cycle.c ===
+codigos_c_limpos\Hamiltonian_Cycle.c:19:19: error: unknown type name 'boolgraph'
+ boolisSafe(int v, boolgraph[V][V], int path[], int pos)
+                   ^~~~~~~~~
+codigos_c_limpos\Hamiltonian_Cycle.c:36:18: error: unknown type name 'boolgraph'
+ boolhamCycleUtil(boolgraph[V][V], int path[], int pos)
+                  ^~~~~~~~~
+codigos_c_limpos\Hamiltonian_Cycle.c:78:14: error: unknown type name 'boolgraph'
+ boolhamCycle(boolgraph[V][V])
+              ^~~~~~~~~
+codigos_c_limpos\Hamiltonian_Cycle.c: In function 'main':
+codigos_c_limpos\Hamiltonian_Cycle.c:120:4: error: 'boolgraph1' undeclared (first use in this function)
+    boolgraph1[V][V] = {{0, 1, 0, 1, 0},
+    ^~~~~~~~~~
+codigos_c_limpos\Hamiltonian_Cycle.c:120:4: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Hamiltonian_Cycle.c:120:23: error: expected expression before '{' token
+    boolgraph1[V][V] = {{0, 1, 0, 1, 0},
+                       ^
+codigos_c_limpos\Hamiltonian_Cycle.c:128:14: error: 'graph1' undeclared (first use in this function)
+     hamCycle(graph1);
+              ^~~~~~
+codigos_c_limpos\Hamiltonian_Cycle.c:136:5: error: 'boolgraph2' undeclared (first use in this function)
+     boolgraph2[V][V] = {{0, 1, 0, 1, 0},
+     ^~~~~~~~~~
+codigos_c_limpos\Hamiltonian_Cycle.c:136:24: error: expected expression before '{' token
+     boolgraph2[V][V] = {{0, 1, 0, 1, 0},
+                        ^
+codigos_c_limpos\Hamiltonian_Cycle.c:144:14: error: 'graph2' undeclared (first use in this function)
+     hamCycle(graph2);
+              ^~~~~~
+
+=== How_to_Sort_a_Stack_using_Recursion.c ===
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c: In function 'main':
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:109:15: error: stray '\342' in program
+     initStack(âŠ¤);
+               ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:109:16: error: stray '\212' in program
+     initStack(âŠ¤);
+                ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:109:17: error: stray '\244' in program
+     initStack(âŠ¤);
+                 ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:109:5: error: too few arguments to function 'initStack'
+     initStack(âŠ¤);
+     ^~~~~~~~~
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:18:6: note: declared here
+ void initStack(struct stack** s) { *s = NULL; }
+      ^~~~~~~~~
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:110:10: error: stray '\342' in program
+     push(âŠ¤, 30);
+          ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:110:11: error: stray '\212' in program
+     push(âŠ¤, 30);
+           ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:110:12: error: stray '\244' in program
+     push(âŠ¤, 30);
+            ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:110:13: error: expected expression before ',' token
+     push(âŠ¤, 30);
+             ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:111:10: error: stray '\342' in program
+     push(âŠ¤, -5);
+          ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:111:11: error: stray '\212' in program
+     push(âŠ¤, -5);
+           ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:111:12: error: stray '\244' in program
+     push(âŠ¤, -5);
+            ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:111:13: error: expected expression before ',' token
+     push(âŠ¤, -5);
+             ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:112:10: error: stray '\342' in program
+     push(âŠ¤, 18);
+          ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:112:11: error: stray '\212' in program
+     push(âŠ¤, 18);
+           ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:112:12: error: stray '\244' in program
+     push(âŠ¤, 18);
+            ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:112:13: error: expected expression before ',' token
+     push(âŠ¤, 18);
+             ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:113:10: error: stray '\342' in program
+     push(âŠ¤, 14);
+          ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:113:11: error: stray '\212' in program
+     push(âŠ¤, 14);
+           ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:113:12: error: stray '\244' in program
+     push(âŠ¤, 14);
+            ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:113:13: error: expected expression before ',' token
+     push(âŠ¤, 14);
+             ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:114:10: error: stray '\342' in program
+     push(âŠ¤, -3);
+          ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:114:11: error: stray '\212' in program
+     push(âŠ¤, -3);
+           ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:114:12: error: stray '\244' in program
+     push(âŠ¤, -3);
+            ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:114:13: error: expected expression before ',' token
+     push(âŠ¤, -3);
+             ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:119:15: error: stray '\342' in program
+     sortStack(âŠ¤);
+               ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:119:16: error: stray '\212' in program
+     sortStack(âŠ¤);
+                ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:119:17: error: stray '\244' in program
+     sortStack(âŠ¤);
+                 ^
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:119:5: error: too few arguments to function 'sortStack'
+     sortStack(âŠ¤);
+     ^~~~~~~~~
+codigos_c_limpos\How_to_Sort_a_Stack_using_Recursion.c:79:6: note: declared here
+ void sortStack(struct stack** s)
+      ^~~~~~~~~
+
+=== How_to_implement_a_Trie_Data_Structure.c ===
+codigos_c_limpos\How_to_implement_a_Trie_Data_Structure.c:30:5: error: expected specifier-qualifier-list before 'boolisEndOfWord'
+     boolisEndOfWord;
+     ^~~~~~~~~~~~~~~
+codigos_c_limpos\How_to_implement_a_Trie_Data_Structure.c: In function 'getNode':
+codigos_c_limpos\How_to_implement_a_Trie_Data_Structure.c:44:14: error: 'struct TrieNode' has no member named 'isEndOfWord'
+         pNode->isEndOfWord = false;
+              ^~
+codigos_c_limpos\How_to_implement_a_Trie_Data_Structure.c: In function 'insert':
+codigos_c_limpos\How_to_implement_a_Trie_Data_Structure.c:73:11: error: 'struct TrieNode' has no member named 'isEndOfWord'
+     pCrawl->isEndOfWord = true;
+           ^~
+codigos_c_limpos\How_to_implement_a_Trie_Data_Structure.c: In function 'boolsearch':
+codigos_c_limpos\How_to_implement_a_Trie_Data_Structure.c:94:18: error: 'struct TrieNode' has no member named 'isEndOfWord'
+     return(pCrawl->isEndOfWord);
+                  ^~
+
+=== Inorder_Tree_Traversal_without_Recursion.c ===
+codigos_c_limpos\Inorder_Tree_Traversal_without_Recursion.c: In function 'inOrder':
+codigos_c_limpos\Inorder_Tree_Traversal_without_Recursion.c:40:5: error: 'booldone' undeclared (first use in this function); did you mean 'bool'?
+     booldone = 0;
+     ^~~~~~~~
+     bool
+codigos_c_limpos\Inorder_Tree_Traversal_without_Recursion.c:40:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Inorder_Tree_Traversal_without_Recursion.c:42:12: error: expected expression before 'do'
+     while(!do ne) {
+            ^~
+codigos_c_limpos\Inorder_Tree_Traversal_without_Recursion.c:66:20: error: 'ne' undeclared (first use in this function)
+                 do ne = 1;
+                    ^~
+codigos_c_limpos\Inorder_Tree_Traversal_without_Recursion.c:67:9: error: expected 'while' before '}' token
+         }
+         ^
+codigos_c_limpos\Inorder_Tree_Traversal_without_Recursion.c:96:13: error: expected expression before 'struct'
+ boolisEmpty(struct sNode* top)
+             ^~~~~~
+codigos_c_limpos\Inorder_Tree_Traversal_without_Recursion.c:96:31: error: expected ';' before '{' token
+ boolisEmpty(struct sNode* top)
+                               ^
+                               ;
+ {
+ ~                              
+codigos_c_limpos\Inorder_Tree_Traversal_without_Recursion.c:155:1: error: expected declaration or statement at end of input
+ }
+ ^
+
+=== Inplace_(Fixed_space)_M_x_N_size_matrix_transpose.c ===
+codigos_c_limpos\Inplace_(Fixed_space)_M_x_N_size_matrix_transpose.c:9:10: fatal error: iostream: No such file or directory
+ #include <iostream>
+          ^~~~~~~~~~
+compilation terminated.
+
+=== Inplace_(Fixed_space)_M_x_N_size_matrix_transpose_2.c ===
+codigos_c_limpos\Inplace_(Fixed_space)_M_x_N_size_matrix_transpose_2.c:8:10: fatal error: iostream: No such file or directory
+ #include <iostream>
+          ^~~~~~~~~~
+compilation terminated.
+
+=== Insertion_in_a_Doubly_Linked_List.c ===
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List.c: In function 'push':
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List.c:14:39: error: invalid application of 'sizeof' to incomplete type 'struct Node'
+         = (struct Node*)malloc(sizeof(struct Node));
+                                       ^~~~~~
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List.c:17:13: error: dereferencing pointer to incomplete type 'struct Node'
+     new_node->data = new_data;
+             ^~
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List.c:21:22: error: 'NULL' undeclared (first use in this function)
+     new_node->prev = NULL;
+                      ^~~~
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List.c:21:22: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List.c:1:1:
++#include <stddef.h>
+ /* Problema: Insertion in a Doubly Linked List
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List.c:21:22:
+     new_node->prev = NULL;
+                      ^~~~
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List.c:21:22: note: each undeclared identifier is reported only once for each function it appears in
+
+=== Insertion_in_a_Doubly_Linked_List_2.c ===
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List_2.c: In function 'insertBefore':
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List_2.c:12:21: error: 'NULL' undeclared (first use in this function)
+     if(next_node == NULL) {
+                     ^~~~
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List_2.c:12:21: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List_2.c:1:1:
++#include <stddef.h>
+ /* Problema: Insertion in a Doubly Linked List
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List_2.c:12:21:
+     if(next_node == NULL) {
+                     ^~~~
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List_2.c:12:21: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List_2.c:19:39: error: invalid application of 'sizeof' to incomplete type 'struct Node'
+         = (struct Node*)malloc(sizeof(struct Node));
+                                       ^~~~~~
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List_2.c:22:13: error: dereferencing pointer to incomplete type 'struct Node'
+     new_node->data = new_data;
+             ^~
+codigos_c_limpos\Insertion_in_a_Doubly_Linked_List_2.c:37:9: error: 'head' undeclared (first use in this function)
+         head = new_node;
+         ^~~~
+
+=== Introduction_of_B-Tree.c ===
+codigos_c_limpos\Introduction_of_B-Tree.c: In function 'BtreeSearch':
+codigos_c_limpos\Introduction_of_B-Tree.c:8:5: error: expected declaration specifiers before 'i'
+     i = 1
+     ^
+codigos_c_limpos\Introduction_of_B-Tree.c:11:13: error: stray '\342' in program
+     while i â‰¤ n[x] and k â‰¥ keyi[x]
+             ^
+codigos_c_limpos\Introduction_of_B-Tree.c:11:14: error: stray '\211' in program
+     while i â‰¤ n[x] and k â‰¥ keyi[x]
+              ^
+codigos_c_limpos\Introduction_of_B-Tree.c:11:15: error: stray '\244' in program
+     while i â‰¤ n[x] and k â‰¥ keyi[x]
+               ^
+codigos_c_limpos\Introduction_of_B-Tree.c:11:28: error: stray '\342' in program
+     while i â‰¤ n[x] and k â‰¥ keyi[x]
+                            ^
+codigos_c_limpos\Introduction_of_B-Tree.c:11:29: error: stray '\211' in program
+     while i â‰¤ n[x] and k â‰¥ keyi[x]
+                             ^
+codigos_c_limpos\Introduction_of_B-Tree.c:11:30: error: stray '\245' in program
+     while i â‰¤ n[x] and k â‰¥ keyi[x]
+                              ^
+
+=== Job_Sequencing_Problem.c ===
+codigos_c_limpos\Job_Sequencing_Problem.c: In function 'printJobScheduling':
+codigos_c_limpos\Job_Sequencing_Problem.c:44:5: error: 'boolslot' undeclared (first use in this function); did you mean 'bool'?
+     boolslot[n]; // To keep track of free time slots
+     ^~~~~~~~
+     bool
+codigos_c_limpos\Job_Sequencing_Problem.c:44:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Job_Sequencing_Problem.c:48:9: error: 'slot' undeclared (first use in this function); did you mean 'float'?
+         slot[i] = false;
+         ^~~~
+         float
+
+=== Lazy_Propagation_in_Segment_Tree.c ===
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree.c: In function 'ructSTUtil':
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree.c:193:38: error: expected ')' before '*' token
+     const ructSTUtil(arr, ss, mid, si*2+1);
+                                      ^
+                                      )
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree.c:194:30: error: expected ')' before '+' token
+     const ructSTUtil(arr, mid+1, se, si*2+2);
+                              ^
+                              )
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree.c: In function 'ructST':
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree.c:205:26: error: expected ')' before numeric constant
+     const ructSTUtil(arr, 0, n-1, 0);
+                          ^~
+                          )
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree.c: In function 'main':
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree.c:216:11: error: conflicting types for 'ructST'
+     const ructST(arr, n);
+           ^~~~~~
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree.c:202:12: note: previous definition of 'ructST' was here
+ void const ructST(int arr[], int n)
+            ^~~~~~
+
+=== Lazy_Propagation_in_Segment_Tree_2.c ===
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_2.c: In function 'ructSTUtil':
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_2.c:193:38: error: expected ')' before '*' token
+     const ructSTUtil(arr, ss, mid, si*2+1);
+                                      ^
+                                      )
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_2.c:194:30: error: expected ')' before '+' token
+     const ructSTUtil(arr, mid+1, se, si*2+2);
+                              ^
+                              )
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_2.c: In function 'ructST':
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_2.c:205:26: error: expected ')' before numeric constant
+     const ructSTUtil(arr, 0, n-1, 0);
+                          ^~
+                          )
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_2.c: In function 'main':
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_2.c:216:11: error: conflicting types for 'ructST'
+     const ructST(arr, n);
+           ^~~~~~
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_2.c:202:12: note: previous definition of 'ructST' was here
+ void const ructST(int arr[], int n)
+            ^~~~~~
+
+=== Lazy_Propagation_in_Segment_Tree_3.c ===
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_3.c: In function 'ructSTUtil':
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_3.c:193:38: error: expected ')' before '*' token
+     const ructSTUtil(arr, ss, mid, si*2+1);
+                                      ^
+                                      )
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_3.c:194:30: error: expected ')' before '+' token
+     const ructSTUtil(arr, mid+1, se, si*2+2);
+                              ^
+                              )
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_3.c: In function 'ructST':
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_3.c:205:26: error: expected ')' before numeric constant
+     const ructSTUtil(arr, 0, n-1, 0);
+                          ^~
+                          )
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_3.c: In function 'main':
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_3.c:216:11: error: conflicting types for 'ructST'
+     const ructST(arr, n);
+           ^~~~~~
+codigos_c_limpos\Lazy_Propagation_in_Segment_Tree_3.c:202:12: note: previous definition of 'ructST' was here
+ void const ructST(int arr[], int n)
+            ^~~~~~
+
+=== Little_and_Big_Endian_Mystery_2.c ===
+codigos_c_limpos\Little_and_Big_Endian_Mystery_2.c: In function 'main':
+codigos_c_limpos\Little_and_Big_Endian_Mystery_2.c:12:4: error: expected ',' or ';' before 'if'
+    if(*c)
+    ^~
+codigos_c_limpos\Little_and_Big_Endian_Mystery_2.c:14:4: error: 'else' without a previous 'if'
+    else
+    ^~~~
+
+=== M-Coloring_Problem.c ===
+codigos_c_limpos\M-Coloring_Problem.c:29:19: error: unknown type name 'boolgraph'
+ boolisSafe(int v, boolgraph[V][V], int color[], int c)
+                   ^~~~~~~~~
+codigos_c_limpos\M-Coloring_Problem.c:39:23: error: unknown type name 'boolgraph'
+ boolgraphColoringUtil(boolgraph[V][V], int m, int color[],
+                       ^~~~~~~~~
+codigos_c_limpos\M-Coloring_Problem.c:82:19: error: unknown type name 'boolgraph'
+ boolgraphColoring(boolgraph[V][V], int m)
+                   ^~~~~~~~~
+codigos_c_limpos\M-Coloring_Problem.c: In function 'main':
+codigos_c_limpos\M-Coloring_Problem.c:123:5: error: 'boolgraph' undeclared (first use in this function)
+     boolgraph[V][V] = {
+     ^~~~~~~~~
+codigos_c_limpos\M-Coloring_Problem.c:123:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\M-Coloring_Problem.c:123:23: error: expected expression before '{' token
+     boolgraph[V][V] = {
+                       ^
+codigos_c_limpos\M-Coloring_Problem.c:132:19: error: 'graph' undeclared (first use in this function)
+     graphColoring(graph, m);
+                   ^~~~~
+
+=== Maximum_size_square_sub-matrix_with_all_1s.c ===
+codigos_c_limpos\Maximum_size_square_sub-matrix_with_all_1s.c:14:24: error: unknown type name 'boolM'; did you mean 'bool'?
+ void printMaxSubSquare(boolM[R][C])
+                        ^~~~~
+                        bool
+codigos_c_limpos\Maximum_size_square_sub-matrix_with_all_1s.c: In function 'main':
+codigos_c_limpos\Maximum_size_square_sub-matrix_with_all_1s.c:79:5: error: 'boolM' undeclared (first use in this function); did you mean 'bool'?
+     boolM[R][C] = { { 0, 1, 1, 0, 1 }, { 1, 1, 0, 1, 0 },
+     ^~~~~
+     bool
+codigos_c_limpos\Maximum_size_square_sub-matrix_with_all_1s.c:79:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Maximum_size_square_sub-matrix_with_all_1s.c:79:19: error: expected expression before '{' token
+     boolM[R][C] = { { 0, 1, 1, 0, 1 }, { 1, 1, 0, 1, 0 },
+                   ^
+codigos_c_limpos\Maximum_size_square_sub-matrix_with_all_1s.c:83:23: error: 'M' undeclared (first use in this function)
+     printMaxSubSquare(M);
+                       ^
+
+=== Merge_Two_Balanced_Binary_Search_Trees.c ===
+codigos_c_limpos\Merge_Two_Balanced_Binary_Search_Trees.c: In function 'mergeTrees':
+codigos_c_limpos\Merge_Two_Balanced_Binary_Search_Trees.c:35:16: error: 'newint' undeclared (first use in this function); did you mean 'rewind'?
+     int*arr1 = newint[m];
+                ^~~~~~
+                rewind
+codigos_c_limpos\Merge_Two_Balanced_Binary_Search_Trees.c:35:16: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Merge_Two_Balanced_Binary_Search_Trees.c: In function 'merge':
+codigos_c_limpos\Merge_Two_Balanced_Binary_Search_Trees.c:83:21: error: 'newint' undeclared (first use in this function); did you mean 'rewind'?
+     int*mergedArr = newint[m + n];
+                     ^~~~~~
+                     rewind
+
+=== N_Queen_Problem_using_Branch_And_Bound.c ===
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:28:38: error: unknown type name 'boolrowLookup'
+             int backslashCode[N][N], boolrowLookup[],
+                                      ^~~~~~~~~~~~~
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:29:7: error: unknown type name 'boolslashCodeLookup'
+       boolslashCodeLookup[], boolbackslashCodeLookup[] )
+       ^~~~~~~~~~~~~~~~~~~
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:29:30: error: unknown type name 'boolbackslashCodeLookup'
+       boolslashCodeLookup[], boolbackslashCodeLookup[] )
+                              ^~~~~~~~~~~~~~~~~~~~~~~
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:43:35: error: unknown type name 'boolrowLookup'
+                                   boolrowLookup[N],
+                                   ^~~~~~~~~~~~~
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:44:29: error: unknown type name 'boolslashCodeLookup'
+                             boolslashCodeLookup[],
+                             ^~~~~~~~~~~~~~~~~~~
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:45:28: error: unknown type name 'boolbackslashCodeLookup'
+                            boolbackslashCodeLookup[] )
+                            ^~~~~~~~~~~~~~~~~~~~~~~
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c: In function 'boolsolveNQueens':
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:101:22: error: 'sizeofboard' undeclared (first use in this function)
+     memset(board, 0, sizeofboard);
+                      ^~~~~~~~~~~
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:101:22: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:108:5: error: 'boolrowLookup' undeclared (first use in this function)
+     boolrowLookup[N] = {false};
+     ^~~~~~~~~~~~~
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:108:24: error: expected expression before '{' token
+     boolrowLookup[N] = {false};
+                        ^
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:112:5: error: 'boolslashCodeLookup' undeclared (first use in this function); did you mean 'backslashCode'?
+     boolslashCodeLookup[2*N - 1] = {false};
+     ^~~~~~~~~~~~~~~~~~~
+     backslashCode
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:112:36: error: expected expression before '{' token
+     boolslashCodeLookup[2*N - 1] = {false};
+                                    ^
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:113:5: error: 'boolbackslashCodeLookup' undeclared (first use in this function); did you mean 'backslashCode'?
+     boolbackslashCodeLookup[2*N - 1] = {false};
+     ^~~~~~~~~~~~~~~~~~~~~~~
+     backslashCode
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:113:40: error: expected expression before '{' token
+     boolbackslashCodeLookup[2*N - 1] = {false};
+                                        ^
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:118:24: error: assignment to expression with array type
+           slashCode[r] = r + c,
+                        ^
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:119:30: error: assignment to expression with array type
+             backslashCode[r] = r - c + 7;
+                              ^
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:124:7: error: 'rowLookup' undeclared (first use in this function)
+       rowLookup, slashCodeLookup, backslashCodeLookup) ==
+       ^~~~~~~~~
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:124:18: error: 'slashCodeLookup' undeclared (first use in this function); did you mean 'slashCode'?
+       rowLookup, slashCodeLookup, backslashCodeLookup) ==
+                  ^~~~~~~~~~~~~~~
+                  slashCode
+codigos_c_limpos\N_Queen_Problem_using_Branch_And_Bound.c:124:35: error: 'backslashCodeLookup' undeclared (first use in this function); did you mean 'backslashCode'?
+       rowLookup, slashCodeLookup, backslashCodeLookup) ==
+                                   ^~~~~~~~~~~~~~~~~~~
+                                   backslashCode
+
+=== Optimising_Overlapping_Sub-problems_in_Recursive_Approach_for_Palindrome_Partitioning_in_(O(n3)).c ===
+codigos_c_limpos\Optimising_Overlapping_Sub-problems_in_Recursive_Approach_for_Palindrome_Partitioning_in_(O(n3)).c: In function 'minPalPartion':
+codigos_c_limpos\Optimising_Overlapping_Sub-problems_in_Recursive_Approach_for_Palindrome_Partitioning_in_(O(n3)).c:30:5: error: 'boolP' undeclared (first use in this function)
+     boolP[n][n];
+     ^~~~~
+codigos_c_limpos\Optimising_Overlapping_Sub-problems_in_Recursive_Approach_for_Palindrome_Partitioning_in_(O(n3)).c:30:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Optimising_Overlapping_Sub-problems_in_Recursive_Approach_for_Palindrome_Partitioning_in_(O(n3)).c:36:9: error: 'P' undeclared (first use in this function)
+         P[i][i] = true;
+         ^
+codigos_c_limpos\Optimising_Overlapping_Sub-problems_in_Recursive_Approach_for_Palindrome_Partitioning_in_(O(n3)).c:36:19: error: 'true' undeclared (first use in this function)
+         P[i][i] = true;
+                   ^~~~
+
+=== Palindrome_Partitioning.c ===
+codigos_c_limpos\Palindrome_Partitioning.c: In function 'minPalPartion':
+codigos_c_limpos\Palindrome_Partitioning.c:30:5: error: 'boolP' undeclared (first use in this function)
+     boolP[n][n];
+     ^~~~~
+codigos_c_limpos\Palindrome_Partitioning.c:30:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Palindrome_Partitioning.c:36:9: error: 'P' undeclared (first use in this function)
+         P[i][i] = true;
+         ^
+codigos_c_limpos\Palindrome_Partitioning.c:36:19: error: 'true' undeclared (first use in this function)
+         P[i][i] = true;
+                   ^~~~
+
+=== Print_unique_rows_in_a_given_Binary_matrix.c ===
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix.c:18:5: error: expected specifier-qualifier-list before 'boolisEndOfCol'
+     boolisEndOfCol;
+     ^~~~~~~~~~~~~~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix.c: In function 'newNode':
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix.c:27:9: error: 'Node' {aka 'struct Node'} has no member named 'isEndOfCol'
+     temp->isEndOfCol = 0;
+         ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix.c:28:9: error: 'Node' {aka 'struct Node'} has no member named 'child'
+     temp->child[0] = temp->child[1] = NULL;
+         ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix.c:28:26: error: 'Node' {aka 'struct Node'} has no member named 'child'
+     temp->child[0] = temp->child[1] = NULL;
+                          ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix.c: In function 'boolinsert':
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix.c:43:35: error: 'Node' {aka 'struct Node'} has no member named 'child'
+         return insert ( &( (*root)->child[ M[row][col] ] ), M, row, col+1 );
+                                   ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix.c:48:23: error: 'Node' {aka 'struct Node'} has no member named 'isEndOfCol'
+         if( !( (*root)->isEndOfCol ) )
+                       ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix.c:49:26: error: 'Node' {aka 'struct Node'} has no member named 'isEndOfCol'
+             return(*root)->isEndOfCol = 1;
+                          ^~
+
+=== Print_unique_rows_in_a_given_Binary_matrix_2.c ===
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_2.c:18:5: error: expected specifier-qualifier-list before 'boolisEndOfCol'
+     boolisEndOfCol;
+     ^~~~~~~~~~~~~~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_2.c: In function 'newNode':
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_2.c:27:9: error: 'Node' {aka 'struct Node'} has no member named 'isEndOfCol'
+     temp->isEndOfCol = 0;
+         ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_2.c:28:9: error: 'Node' {aka 'struct Node'} has no member named 'child'
+     temp->child[0] = temp->child[1] = NULL;
+         ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_2.c:28:26: error: 'Node' {aka 'struct Node'} has no member named 'child'
+     temp->child[0] = temp->child[1] = NULL;
+                          ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_2.c: In function 'boolinsert':
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_2.c:43:35: error: 'Node' {aka 'struct Node'} has no member named 'child'
+         return insert ( &( (*root)->child[ M[row][col] ] ), M, row, col+1 );
+                                   ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_2.c:48:23: error: 'Node' {aka 'struct Node'} has no member named 'isEndOfCol'
+         if( !( (*root)->isEndOfCol ) )
+                       ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_2.c:49:26: error: 'Node' {aka 'struct Node'} has no member named 'isEndOfCol'
+             return(*root)->isEndOfCol = 1;
+                          ^~
+
+=== Print_unique_rows_in_a_given_Binary_matrix_3.c ===
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_3.c:18:5: error: expected specifier-qualifier-list before 'boolisEndOfCol'
+     boolisEndOfCol;
+     ^~~~~~~~~~~~~~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_3.c: In function 'newNode':
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_3.c:27:9: error: 'Node' {aka 'struct Node'} has no member named 'isEndOfCol'
+     temp->isEndOfCol = 0;
+         ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_3.c:28:9: error: 'Node' {aka 'struct Node'} has no member named 'child'
+     temp->child[0] = temp->child[1] = NULL;
+         ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_3.c:28:26: error: 'Node' {aka 'struct Node'} has no member named 'child'
+     temp->child[0] = temp->child[1] = NULL;
+                          ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_3.c: In function 'boolinsert':
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_3.c:43:35: error: 'Node' {aka 'struct Node'} has no member named 'child'
+         return insert ( &( (*root)->child[ M[row][col] ] ), M, row, col+1 );
+                                   ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_3.c:48:23: error: 'Node' {aka 'struct Node'} has no member named 'isEndOfCol'
+         if( !( (*root)->isEndOfCol ) )
+                       ^~
+codigos_c_limpos\Print_unique_rows_in_a_given_Binary_matrix_3.c:49:26: error: 'Node' {aka 'struct Node'} has no member named 'isEndOfCol'
+             return(*root)->isEndOfCol = 1;
+                          ^~
+
+=== Randomized_Algorithms_Set_3_(12_Approximate_Median).c ===
+codigos_c_limpos\Randomized_Algorithms_Set_3_(12_Approximate_Median).c:9:9: fatal error: bits/stdc++.h: No such file or directory
+ #include<bits/stdc++.h>
+         ^~~~~~~~~~~~~~~
+compilation terminated.
+
+=== Segment_Tree_Range_Minimum_Query.c ===
+codigos_c_limpos\Segment_Tree_Range_Minimum_Query.c: In function 'ructSTUtil':
+codigos_c_limpos\Segment_Tree_Range_Minimum_Query.c:73:22: error: expected expression before 'const'
+     st[si] =  minVal(const ructSTUtil(arr, ss, mid, st, si*2+1),
+                      ^~~~~
+codigos_c_limpos\Segment_Tree_Range_Minimum_Query.c:73:15: error: too few arguments to function 'minVal'
+     st[si] =  minVal(const ructSTUtil(arr, ss, mid, st, si*2+1),
+               ^~~~~~
+codigos_c_limpos\Segment_Tree_Range_Minimum_Query.c:13:5: note: declared here
+ int minVal(int x, int y) { return(x < y)? x: y; }
+     ^~~~~~
+codigos_c_limpos\Segment_Tree_Range_Minimum_Query.c: In function 'ructST':
+codigos_c_limpos\Segment_Tree_Range_Minimum_Query.c:91:14: error: 'newint' undeclared (first use in this function); did you mean 'rewind'?
+     int*st = newint[max_size];
+              ^~~~~~
+              rewind
+codigos_c_limpos\Segment_Tree_Range_Minimum_Query.c:91:14: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Segment_Tree_Range_Minimum_Query.c:94:26: error: expected ')' before numeric constant
+     const ructSTUtil(arr, 0, n-1, st, 0);
+                          ^~
+                          )
+codigos_c_limpos\Segment_Tree_Range_Minimum_Query.c: In function 'main':
+codigos_c_limpos\Segment_Tree_Range_Minimum_Query.c:107:14: error: expected expression before 'const'
+     int*st = const ructST(arr, n);
+              ^~~~~
+
+=== Segment_Tree_Sum_of_given_range.c ===
+codigos_c_limpos\Segment_Tree_Sum_of_given_range.c: In function 'ructSTUtil':
+codigos_c_limpos\Segment_Tree_Sum_of_given_range.c:115:15: error: expected expression before 'const'
+     st[si] =  const ructSTUtil(arr, ss, mid, st, si*2+1) +
+               ^~~~~
+codigos_c_limpos\Segment_Tree_Sum_of_given_range.c: In function 'ructST':
+codigos_c_limpos\Segment_Tree_Sum_of_given_range.c:134:14: error: 'newint' undeclared (first use in this function); did you mean 'rewind'?
+     int*st = newint[max_size];
+              ^~~~~~
+              rewind
+codigos_c_limpos\Segment_Tree_Sum_of_given_range.c:134:14: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Segment_Tree_Sum_of_given_range.c:137:26: error: expected ')' before numeric constant
+     const ructSTUtil(arr, 0, n-1, st, 0);
+                          ^~
+                          )
+codigos_c_limpos\Segment_Tree_Sum_of_given_range.c: In function 'main':
+codigos_c_limpos\Segment_Tree_Sum_of_given_range.c:150:14: error: expected expression before 'const'
+     int*st = const ructST(arr, n);
+              ^~~~~
+
+=== Sieve_of_Eratosthenes.c ===
+codigos_c_limpos\Sieve_of_Eratosthenes.c: In function 'SieveOfEratosthenes':
+codigos_c_limpos\Sieve_of_Eratosthenes.c:19:5: error: 'boolprime' undeclared (first use in this function)
+     boolprime[n + 1];
+     ^~~~~~~~~
+codigos_c_limpos\Sieve_of_Eratosthenes.c:19:5: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Sieve_of_Eratosthenes.c:20:12: error: 'prime' undeclared (first use in this function); did you mean 'fwrite'?
+     memset(prime, true, sizeof(prime));
+            ^~~~~
+            fwrite
+
+=== Sort_elements_by_frequency.c ===
+codigos_c_limpos\Sort_elements_by_frequency.c:10:9: error: expected ':', ',', ';', '}' or '__attribute__' before 'int'
+         int count;
+         ^~~
+
+=== Sort_elements_by_frequency_using_BST.c ===
+codigos_c_limpos\Sort_elements_by_frequency_using_BST.c:10:9: error: expected ':', ',', ';', '}' or '__attribute__' before 'int'
+         int count;
+         ^~~
+
+=== Sort_elements_by_frequency_using_hashing_and_sorting.c ===
+codigos_c_limpos\Sort_elements_by_frequency_using_hashing_and_sorting.c:10:9: error: expected ':', ',', ';', '}' or '__attribute__' before 'int'
+         int count;
+         ^~~
+
+=== Sorted_insert_for_circular_linked_list_2.c ===
+codigos_c_limpos\Sorted_insert_for_circular_linked_list_2.c:8:1: error: expected identifier or '(' before 'else'
+ else if(current->data >= new_node->data)
+ ^~~~
+
+=== Suffix_Tree_Application_1_–_Substring_Check.c ===
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c: In function 'extendSuffixTree':
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:131:32: error: expected ')' before ']' token
+         if(activeNode->children] == NULL)
+           ~                    ^
+                                )
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:131:32: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:131:34: error: expected expression before '==' token
+         if(activeNode->children] == NULL)
+                                  ^~
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:131:41: error: expected statement before ')' token
+         if(activeNode->children] == NULL)
+                                         ^
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:134:33: error: expected ';' before ']' token
+             activeNode->children] =
+                                 ^
+                                 ;
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:134:33: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:134:35: error: expected expression before '=' token
+             activeNode->children] =
+                                   ^
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:152:9: error: 'else' without a previous 'if'
+         else
+         ^~~~
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:156:46: error: expected ',' or ';' before ']' token
+             Node *next = activeNode->children];
+                                              ^
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:194:33: error: expected ';' before ']' token
+             activeNode->children] = split;
+                                 ^
+                                 ;
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:194:33: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:194:35: error: expected expression before '=' token
+             activeNode->children] = split;
+                                   ^
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:197:28: error: expected ';' before ']' token
+             split->children] = newNode(pos, &leafEnd);
+                            ^
+                            ;
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:197:28: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:197:30: error: expected expression before '=' token
+             split->children] = newNode(pos, &leafEnd);
+                              ^
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:199:28: error: expected ';' before ']' token
+             split->children] = next;
+                            ^
+                            ;
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:199:28: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:199:30: error: expected expression before '=' token
+             split->children] = next;
+                              ^
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c: At top level:
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:335:5: error: expected identifier or '(' before 'do'
+ int do Traversal(Node *n, char* str, int idx)
+     ^~
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c: In function 'checkForSubString':
+codigos_c_limpos\Suffix_Tree_Application_1_–_Substring_Check.c:362:15: error: expected expression before 'do'
+     int res = do Traversal(root, str, 0);
+               ^~
+
+=== Suffix_Tree_Application_2_–_Searching_All_Patterns.c ===
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c: In function 'extendSuffixTree':
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:132:32: error: expected ')' before ']' token
+         if(activeNode->children] == NULL)
+           ~                    ^
+                                )
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:132:32: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:132:34: error: expected expression before '==' token
+         if(activeNode->children] == NULL)
+                                  ^~
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:132:41: error: expected statement before ')' token
+         if(activeNode->children] == NULL)
+                                         ^
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:135:33: error: expected ';' before ']' token
+             activeNode->children] =
+                                 ^
+                                 ;
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:135:33: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:135:35: error: expected expression before '=' token
+             activeNode->children] =
+                                   ^
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:153:9: error: 'else' without a previous 'if'
+         else
+         ^~~~
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:157:46: error: expected ',' or ';' before ']' token
+             Node *next = activeNode->children];
+                                              ^
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:195:33: error: expected ';' before ']' token
+             activeNode->children] = split;
+                                 ^
+                                 ;
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:195:33: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:195:35: error: expected expression before '=' token
+             activeNode->children] = split;
+                                   ^
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:198:28: error: expected ';' before ']' token
+             split->children] = newNode(pos, &leafEnd);
+                            ^
+                            ;
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:198:28: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:198:30: error: expected expression before '=' token
+             split->children] = newNode(pos, &leafEnd);
+                              ^
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:200:28: error: expected ';' before ']' token
+             split->children] = next;
+                            ^
+                            ;
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:200:28: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:200:30: error: expected expression before '=' token
+             split->children] = next;
+                              ^
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c: At top level:
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:336:5: error: expected identifier or '(' before 'do'
+ int do TraversalToCountLeaf(Node *n)
+     ^~
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c: In function 'countLeaf':
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:361:12: error: expected expression before 'do'
+     return do TraversalToCountLeaf(n);
+            ^~
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c: At top level:
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:364:5: error: expected identifier or '(' before 'do'
+ int do Traversal(Node *n, char* str, int idx)
+     ^~
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c: In function 'checkForSubString':
+codigos_c_limpos\Suffix_Tree_Application_2_–_Searching_All_Patterns.c:400:15: error: expected expression before 'do'
+     int res = do Traversal(root, str, 0);
+               ^~
+
+=== Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c ===
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c: In function 'extendSuffixTree':
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:132:32: error: expected ')' before ']' token
+         if(activeNode->children] == NULL)
+           ~                    ^
+                                )
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:132:32: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:132:34: error: expected expression before '==' token
+         if(activeNode->children] == NULL)
+                                  ^~
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:132:41: error: expected statement before ')' token
+         if(activeNode->children] == NULL)
+                                         ^
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:135:33: error: expected ';' before ']' token
+             activeNode->children] =
+                                 ^
+                                 ;
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:135:33: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:135:35: error: expected expression before '=' token
+             activeNode->children] =
+                                   ^
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:153:9: error: 'else' without a previous 'if'
+         else
+         ^~~~
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:157:46: error: expected ',' or ';' before ']' token
+             Node *next = activeNode->children];
+                                              ^
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:195:33: error: expected ';' before ']' token
+             activeNode->children] = split;
+                                 ^
+                                 ;
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:195:33: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:195:35: error: expected expression before '=' token
+             activeNode->children] = split;
+                                   ^
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:198:28: error: expected ';' before ']' token
+             split->children] = newNode(pos, &leafEnd);
+                            ^
+                            ;
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:198:28: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:198:30: error: expected expression before '=' token
+             split->children] = newNode(pos, &leafEnd);
+                              ^
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:200:28: error: expected ';' before ']' token
+             split->children] = next;
+                            ^
+                            ;
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:200:28: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:200:30: error: expected expression before '=' token
+             split->children] = next;
+                              ^
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c: At top level:
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:322:6: error: expected identifier or '(' before 'do'
+ void do Traversal(Node *n, int labelHeight, int* maxHeight,
+      ^~
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c: In function 'getLongestRepeatedSubstring':
+codigos_c_limpos\Suffix_Tree_Application_3_–_Longest_Repeated_Substring.c:357:5: error: expected 'while' before 'printf'
+     printf("Longest Repeated Substring in %s is: ", text);
+     ^~~~~~
+
+=== Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c ===
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c: In function 'extendSuffixTree':
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:132:32: error: expected ')' before ']' token
+         if(activeNode->children] == NULL)
+           ~                    ^
+                                )
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:132:32: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:132:34: error: expected expression before '==' token
+         if(activeNode->children] == NULL)
+                                  ^~
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:132:41: error: expected statement before ')' token
+         if(activeNode->children] == NULL)
+                                         ^
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:135:33: error: expected ';' before ']' token
+             activeNode->children] =
+                                 ^
+                                 ;
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:135:33: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:135:35: error: expected expression before '=' token
+             activeNode->children] =
+                                   ^
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:153:9: error: 'else' without a previous 'if'
+         else
+         ^~~~
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:157:46: error: expected ',' or ';' before ']' token
+             Node *next = activeNode->children];
+                                              ^
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:195:33: error: expected ';' before ']' token
+             activeNode->children] = split;
+                                 ^
+                                 ;
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:195:33: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:195:35: error: expected expression before '=' token
+             activeNode->children] = split;
+                                   ^
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:198:28: error: expected ';' before ']' token
+             split->children] = newNode(pos, &leafEnd);
+                            ^
+                            ;
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:198:28: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:198:30: error: expected expression before '=' token
+             split->children] = newNode(pos, &leafEnd);
+                              ^
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:200:28: error: expected ';' before ']' token
+             split->children] = next;
+                            ^
+                            ;
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:200:28: error: expected statement before ']' token
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:200:30: error: expected expression before '=' token
+             split->children] = next;
+                              ^
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c: At top level:
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:322:6: error: expected identifier or '(' before 'do'
+ void do Traversal(Node *n, int suffixArray[], int*idx)
+      ^~
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c: In function 'buildSuffixArray':
+codigos_c_limpos\Suffix_Tree_Application_4_–_Build_Linear_Time_Suffix_Array.c:353:5: error: expected 'while' before 'printf'
+     printf("Suffix Array for String ");
+     ^~~~~~
+
+=== Suffix_Tree_Application_6_–_Longest_Palindromic_Substring.c ===
+codigos_c_limpos\Suffix_Tree_Application_6_–_Longest_Palindromic_Substring.c:14:10: fatal error: unordered_set: No such file or directory
+ #include <unordered_set>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+
+=== Threaded_Binary_Tree.c ===
+codigos_c_limpos\Threaded_Binary_Tree.c:11:5: error: expected specifier-qualifier-list before 'boolrightThread'
+     boolrightThread;
+     ^~~~~~~~~~~~~~~
+codigos_c_limpos\Threaded_Binary_Tree.c:12:1: error: expected identifier or '(' at end of input
+ }
+ ^
+
+=== Threaded_Binary_Tree_2.c ===
+codigos_c_limpos\Threaded_Binary_Tree_2.c: In function 'leftMost':
+codigos_c_limpos\Threaded_Binary_Tree_2.c:11:13: error: 'NULL' undeclared (first use in this function)
+     if(n == NULL)
+             ^~~~
+codigos_c_limpos\Threaded_Binary_Tree_2.c:11:13: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+codigos_c_limpos\Threaded_Binary_Tree_2.c:1:1:
++#include <stddef.h>
+ /* Problema: Threaded Binary Tree
+codigos_c_limpos\Threaded_Binary_Tree_2.c:11:13:
+     if(n == NULL)
+             ^~~~
+codigos_c_limpos\Threaded_Binary_Tree_2.c:11:13: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Threaded_Binary_Tree_2.c:14:12: error: dereferencing pointer to incomplete type 'struct Node'
+     while(n->left != NULL)
+            ^~
+codigos_c_limpos\Threaded_Binary_Tree_2.c: In function 'inOrder':
+codigos_c_limpos\Threaded_Binary_Tree_2.c:24:18: error: 'NULL' undeclared (first use in this function)
+     while(cur != NULL) {
+                  ^~~~
+codigos_c_limpos\Threaded_Binary_Tree_2.c:24:18: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+
+=== Threaded_Binary_Tree_3.c ===
+codigos_c_limpos\Threaded_Binary_Tree_3.c: In function 'leftMost':
+codigos_c_limpos\Threaded_Binary_Tree_3.c:11:13: error: 'NULL' undeclared (first use in this function)
+     if(n == NULL)
+             ^~~~
+codigos_c_limpos\Threaded_Binary_Tree_3.c:11:13: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+codigos_c_limpos\Threaded_Binary_Tree_3.c:1:1:
++#include <stddef.h>
+ /* Problema: Threaded Binary Tree
+codigos_c_limpos\Threaded_Binary_Tree_3.c:11:13:
+     if(n == NULL)
+             ^~~~
+codigos_c_limpos\Threaded_Binary_Tree_3.c:11:13: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Threaded_Binary_Tree_3.c:14:12: error: dereferencing pointer to incomplete type 'struct Node'
+     while(n->left != NULL)
+            ^~
+codigos_c_limpos\Threaded_Binary_Tree_3.c: In function 'inOrder':
+codigos_c_limpos\Threaded_Binary_Tree_3.c:24:18: error: 'NULL' undeclared (first use in this function)
+     while(cur != NULL) {
+                  ^~~~
+codigos_c_limpos\Threaded_Binary_Tree_3.c:24:18: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+
+=== Traversal_of_Circular_Linked_List.c ===
+codigos_c_limpos\Traversal_of_Circular_Linked_List.c: In function 'printList':
+codigos_c_limpos\Traversal_of_Circular_Linked_List.c:13:17: error: 'NULL' undeclared (first use in this function)
+     if(first != NULL)
+                 ^~~~
+codigos_c_limpos\Traversal_of_Circular_Linked_List.c:13:17: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+codigos_c_limpos\Traversal_of_Circular_Linked_List.c:1:1:
++#include <stddef.h>
+ /* Problema: Traversal of Circular Linked List
+codigos_c_limpos\Traversal_of_Circular_Linked_List.c:13:17:
+     if(first != NULL)
+                 ^~~~
+codigos_c_limpos\Traversal_of_Circular_Linked_List.c:13:17: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Traversal_of_Circular_Linked_List.c:18:31: error: dereferencing pointer to incomplete type 'struct Node'
+             printf("%d ", temp->data);
+                               ^~
+
+=== Trie_(Insert_and_Search).c ===
+codigos_c_limpos\Trie_(Insert_and_Search).c:30:5: error: expected specifier-qualifier-list before 'boolisEndOfWord'
+     boolisEndOfWord;
+     ^~~~~~~~~~~~~~~
+codigos_c_limpos\Trie_(Insert_and_Search).c: In function 'getNode':
+codigos_c_limpos\Trie_(Insert_and_Search).c:44:14: error: 'struct TrieNode' has no member named 'isEndOfWord'
+         pNode->isEndOfWord = false;
+              ^~
+codigos_c_limpos\Trie_(Insert_and_Search).c: In function 'insert':
+codigos_c_limpos\Trie_(Insert_and_Search).c:73:11: error: 'struct TrieNode' has no member named 'isEndOfWord'
+     pCrawl->isEndOfWord = true;
+           ^~
+codigos_c_limpos\Trie_(Insert_and_Search).c: In function 'boolsearch':
+codigos_c_limpos\Trie_(Insert_and_Search).c:94:18: error: 'struct TrieNode' has no member named 'isEndOfWord'
+     return(pCrawl->isEndOfWord);
+                  ^~
+
+=== Union_and_Intersection_of_two_Linked_Lists.c ===
+codigos_c_limpos\Union_and_Intersection_of_two_Linked_Lists.c: In function 'main':
+codigos_c_limpos\Union_and_Intersection_of_two_Linked_Lists.c:119:18: error: expected identifier or '(' before 'int'
+     struct Node* int ersecn = NULL;
+                  ^~~
+codigos_c_limpos\Union_and_Intersection_of_two_Linked_Lists.c:144:15: error: expected expression before 'int'
+     printList(int ersecn);
+               ^~~
+
+=== Write_a_program_to_add_two_numbers_in_base_14.c ===
+codigos_c_limpos\Write_a_program_to_add_two_numbers_in_base_14.c: In function 'sumBase14':
+codigos_c_limpos\Write_a_program_to_add_two_numbers_in_base_14.c:22:4: error: 'boolcarry' undeclared (first use in this function)
+    boolcarry = 0;
+    ^~~~~~~~~
+codigos_c_limpos\Write_a_program_to_add_two_numbers_in_base_14.c:22:4: note: each undeclared identifier is reported only once for each function it appears in
+codigos_c_limpos\Write_a_program_to_add_two_numbers_in_base_14.c:47:16: error: 'carry' undeclared (first use in this function)
+      res_nml = carry + nml1 + nml2;
+                ^~~~~
+
+=== XOR_Linked_List_–_A_Memory_Efficient_Doubly_Linked_List_Set_2.c ===
+codigos_c_limpos\XOR_Linked_List_–_A_Memory_Efficient_Doubly_Linked_List_Set_2.c:11:10: fatal error: int types.h: No such file or directory
+ #include <int types.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+

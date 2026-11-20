@@ -1,0 +1,136 @@
+
+==============================================================================
+  Assembly | 6 classes | 189 amostras | 18 features | 5x20
+  classes: {'Linear': np.int64(79), 'Polinomial': np.int64(40), 'O(n log n)': np.int64(22), 'Logaritmica': np.int64(20), 'Constante': np.int64(20), 'Exponencial': np.int64(8)}
+==============================================================================
+  [sem  ] Random Forest       : bal.acc 0.531 | acc 0.582 | kappa 0.436 | F1 0.514 | AUC nan  (20s)
+  [sem  ] Gradient Boosting   : bal.acc 0.471 | acc 0.558 | kappa 0.379 | F1 0.476 | AUC nan  (39s)
+  [sem  ] SVM (RBF)           : bal.acc 0.485 | acc 0.514 | kappa 0.358 | F1 0.451 | AUC nan  (0s)
+  [sem  ] Logistic Regression : bal.acc 0.489 | acc 0.435 | kappa 0.294 | F1 0.413 | AUC nan  (1s)
+  [sem  ] LightGBM            : bal.acc 0.499 | acc 0.557 | kappa 0.394 | F1 0.491 | AUC nan  (5s)
+  [sem  ] CatBoost            : bal.acc 0.554 | acc 0.555 | kappa 0.424 | F1 0.507 | AUC nan  (11s)
+  [SMOTE] Random Forest       : bal.acc 0.535 | acc 0.598 | kappa 0.461 | F1 0.522 | AUC nan  (11s)
+  [SMOTE] Gradient Boosting   : bal.acc 0.509 | acc 0.578 | kappa 0.421 | F1 0.507 | AUC nan  (48s)
+  [SMOTE] SVM (RBF)           : bal.acc 0.471 | acc 0.517 | kappa 0.347 | F1 0.450 | AUC nan  (0s)
+  [SMOTE] Logistic Regression : bal.acc 0.501 | acc 0.459 | kappa 0.314 | F1 0.437 | AUC nan  (0s)
+  [SMOTE] LightGBM            : bal.acc 0.513 | acc 0.573 | kappa 0.415 | F1 0.509 | AUC nan  (4s)
+  [SMOTE] CatBoost            : bal.acc 0.566 | acc 0.592 | kappa 0.457 | F1 0.541 | AUC nan  (33s)
+
+==============================================================================
+  Assembly | 3 classes | 189 amostras | 18 features | 5x20
+  classes: {'Linear': np.int64(101), 'Custoso': np.int64(48), 'Sublinear': np.int64(40)}
+==============================================================================
+  [sem  ] Random Forest       : bal.acc 0.596 | acc 0.646 | kappa 0.390 | F1 0.604 | AUC nan  (7s)
+  [sem  ] Gradient Boosting   : bal.acc 0.598 | acc 0.657 | kappa 0.405 | F1 0.610 | AUC nan  (18s)
+  [sem  ] SVM (RBF)           : bal.acc 0.565 | acc 0.589 | kappa 0.324 | F1 0.558 | AUC nan  (0s)
+  [sem  ] Logistic Regression : bal.acc 0.603 | acc 0.585 | kappa 0.355 | F1 0.575 | AUC nan  (0s)
+  [sem  ] LightGBM            : bal.acc 0.595 | acc 0.622 | kappa 0.372 | F1 0.592 | AUC nan  (1s)
+  [sem  ] CatBoost            : bal.acc 0.615 | acc 0.632 | kappa 0.398 | F1 0.606 | AUC nan  (7s)
+  [SMOTE] Random Forest       : bal.acc 0.617 | acc 0.652 | kappa 0.414 | F1 0.617 | AUC nan  (8s)
+  [SMOTE] Gradient Boosting   : bal.acc 0.604 | acc 0.646 | kappa 0.402 | F1 0.606 | AUC nan  (23s)
+  [SMOTE] SVM (RBF)           : bal.acc 0.550 | acc 0.590 | kappa 0.312 | F1 0.550 | AUC nan  (0s)
+  [SMOTE] Logistic Regression : bal.acc 0.610 | acc 0.595 | kappa 0.366 | F1 0.583 | AUC nan  (0s)
+  [SMOTE] LightGBM            : bal.acc 0.584 | acc 0.628 | kappa 0.371 | F1 0.586 | AUC nan  (2s)
+  [SMOTE] CatBoost            : bal.acc 0.609 | acc 0.641 | kappa 0.403 | F1 0.607 | AUC nan  (13s)
+
+==============================================================================
+  Assembly | Binario | 189 amostras | 18 features | 5x20
+  classes: {'Eficiente': np.int64(141), 'Ineficiente': np.int64(48)}
+==============================================================================
+  [sem  ] Random Forest       : bal.acc 0.657 | acc 0.772 | kappa 0.342 | F1 0.666 | AUC 0.782  (7s)
+  [sem  ] Gradient Boosting   : bal.acc 0.631 | acc 0.755 | kappa 0.286 | F1 0.638 | AUC 0.765  (7s)
+  [sem  ] SVM (RBF)           : bal.acc 0.706 | acc 0.762 | kappa 0.393 | F1 0.694 | AUC 0.765  (0s)
+  [sem  ] Logistic Regression : bal.acc 0.724 | acc 0.739 | kappa 0.394 | F1 0.692 | AUC 0.778  (0s)
+  [sem  ] LightGBM            : bal.acc 0.685 | acc 0.752 | kappa 0.358 | F1 0.676 | AUC 0.755  (1s)
+  [sem  ] CatBoost            : bal.acc 0.665 | acc 0.761 | kappa 0.341 | F1 0.668 | AUC 0.783  (6s)
+  [SMOTE] Random Forest       : bal.acc 0.676 | acc 0.775 | kappa 0.370 | F1 0.681 | AUC 0.797  (7s)
+  [SMOTE] Gradient Boosting   : bal.acc 0.683 | acc 0.775 | kappa 0.378 | F1 0.686 | AUC 0.796  (7s)
+  [SMOTE] SVM (RBF)           : bal.acc 0.710 | acc 0.787 | kappa 0.424 | F1 0.709 | AUC 0.780  (0s)
+  [SMOTE] Logistic Regression : bal.acc 0.729 | acc 0.750 | kappa 0.410 | F1 0.701 | AUC 0.782  (0s)
+  [SMOTE] LightGBM            : bal.acc 0.702 | acc 0.789 | kappa 0.420 | F1 0.708 | AUC 0.803  (1s)
+  [SMOTE] CatBoost            : bal.acc 0.691 | acc 0.785 | kappa 0.400 | F1 0.697 | AUC 0.808  (9s)
+
+==============================================================================
+  C | 6 classes | 229 amostras | 15 features | 5x20
+  classes: {'Linear': np.int64(95), 'Polinomial': np.int64(49), 'O(n log n)': np.int64(30), 'Constante': np.int64(25), 'Logaritmica': np.int64(22), 'Exponencial': np.int64(8)}
+==============================================================================
+  [sem  ] Random Forest       : bal.acc 0.465 | acc 0.575 | kappa 0.430 | F1 0.447 | AUC nan  (6s)
+  [sem  ] Gradient Boosting   : bal.acc 0.418 | acc 0.562 | kappa 0.389 | F1 0.424 | AUC nan  (16s)
+  [sem  ] SVM (RBF)           : bal.acc 0.514 | acc 0.528 | kappa 0.379 | F1 0.457 | AUC nan  (0s)
+  [sem  ] Logistic Regression : bal.acc 0.533 | acc 0.464 | kappa 0.338 | F1 0.434 | AUC nan  (0s)
+  [sem  ] LightGBM            : bal.acc 0.436 | acc 0.544 | kappa 0.386 | F1 0.429 | AUC nan  (2s)
+  [sem  ] CatBoost            : bal.acc 0.496 | acc 0.550 | kappa 0.414 | F1 0.461 | AUC nan  (5s)
+  [SMOTE] Random Forest       : bal.acc 0.488 | acc 0.582 | kappa 0.445 | F1 0.467 | AUC nan  (5s)
+  [SMOTE] Gradient Boosting   : bal.acc 0.463 | acc 0.569 | kappa 0.420 | F1 0.455 | AUC nan  (58s)
+  [SMOTE] SVM (RBF)           : bal.acc 0.455 | acc 0.512 | kappa 0.350 | F1 0.419 | AUC nan  (1s)
+  [SMOTE] Logistic Regression : bal.acc 0.535 | acc 0.483 | kappa 0.353 | F1 0.450 | AUC nan  (1s)
+  [SMOTE] LightGBM            : bal.acc 0.452 | acc 0.563 | kappa 0.409 | F1 0.445 | AUC nan  (7s)
+  [SMOTE] CatBoost            : bal.acc 0.495 | acc 0.576 | kappa 0.441 | F1 0.472 | AUC nan  (38s)
+
+==============================================================================
+  C | 3 classes | 229 amostras | 15 features | 5x20
+  classes: {'Linear': np.int64(125), 'Custoso': np.int64(57), 'Sublinear': np.int64(47)}
+==============================================================================
+  [sem  ] Random Forest       : bal.acc 0.646 | acc 0.670 | kappa 0.455 | F1 0.634 | AUC nan  (8s)
+  [sem  ] Gradient Boosting   : bal.acc 0.588 | acc 0.655 | kappa 0.397 | F1 0.594 | AUC nan  (19s)
+  [sem  ] SVM (RBF)           : bal.acc 0.606 | acc 0.613 | kappa 0.378 | F1 0.588 | AUC nan  (0s)
+  [sem  ] Logistic Regression : bal.acc 0.589 | acc 0.554 | kappa 0.325 | F1 0.542 | AUC nan  (0s)
+  [sem  ] LightGBM            : bal.acc 0.596 | acc 0.622 | kappa 0.381 | F1 0.586 | AUC nan  (2s)
+  [sem  ] CatBoost            : bal.acc 0.641 | acc 0.647 | kappa 0.432 | F1 0.621 | AUC nan  (8s)
+  [SMOTE] Random Forest       : bal.acc 0.644 | acc 0.664 | kappa 0.449 | F1 0.629 | AUC nan  (9s)
+  [SMOTE] Gradient Boosting   : bal.acc 0.617 | acc 0.658 | kappa 0.423 | F1 0.614 | AUC nan  (25s)
+  [SMOTE] SVM (RBF)           : bal.acc 0.590 | acc 0.608 | kappa 0.362 | F1 0.579 | AUC nan  (0s)
+  [SMOTE] Logistic Regression : bal.acc 0.583 | acc 0.555 | kappa 0.322 | F1 0.541 | AUC nan  (0s)
+  [SMOTE] LightGBM            : bal.acc 0.602 | acc 0.649 | kappa 0.407 | F1 0.602 | AUC nan  (2s)
+  [SMOTE] CatBoost            : bal.acc 0.647 | acc 0.667 | kappa 0.453 | F1 0.634 | AUC nan  (19s)
+
+==============================================================================
+  C | Binario | 229 amostras | 15 features | 5x20
+  classes: {'Eficiente': np.int64(172), 'Ineficiente': np.int64(57)}
+==============================================================================
+  [sem  ] Random Forest       : bal.acc 0.721 | acc 0.811 | kappa 0.462 | F1 0.729 | AUC 0.772  (9s)
+  [sem  ] Gradient Boosting   : bal.acc 0.679 | acc 0.790 | kappa 0.383 | F1 0.688 | AUC 0.752  (6s)
+  [sem  ] SVM (RBF)           : bal.acc 0.664 | acc 0.702 | kappa 0.292 | F1 0.640 | AUC 0.710  (0s)
+  [sem  ] Logistic Regression : bal.acc 0.663 | acc 0.691 | kappa 0.282 | F1 0.634 | AUC 0.733  (0s)
+  [sem  ] LightGBM            : bal.acc 0.687 | acc 0.748 | kappa 0.354 | F1 0.674 | AUC 0.736  (1s)
+  [sem  ] CatBoost            : bal.acc 0.693 | acc 0.758 | kappa 0.373 | F1 0.684 | AUC 0.760  (6s)
+  [SMOTE] Random Forest       : bal.acc 0.710 | acc 0.796 | kappa 0.433 | F1 0.714 | AUC 0.763  (8s)
+  [SMOTE] Gradient Boosting   : bal.acc 0.695 | acc 0.775 | kappa 0.391 | F1 0.693 | AUC 0.757  (8s)
+  [SMOTE] SVM (RBF)           : bal.acc 0.658 | acc 0.707 | kappa 0.290 | F1 0.640 | AUC 0.715  (0s)
+  [SMOTE] Logistic Regression : bal.acc 0.667 | acc 0.696 | kappa 0.292 | F1 0.639 | AUC 0.732  (0s)
+  [SMOTE] LightGBM            : bal.acc 0.687 | acc 0.769 | kappa 0.375 | F1 0.686 | AUC 0.745  (1s)
+  [SMOTE] CatBoost            : bal.acc 0.699 | acc 0.780 | kappa 0.400 | F1 0.698 | AUC 0.760  (9s)
+
+==============================================================================
+  RESUMO - melhor modelo por cenario (bal.acc, 5x20=100 avaliacoes)
+==============================================================================
+  Assembly 3 classes  SMOTE  Random Forest       bal 0.617 | acc 0.652 | kappa 0.414 | F1 0.617 | AUC nan
+  Assembly 3 classes  sem    CatBoost            bal 0.615 | acc 0.632 | kappa 0.398 | F1 0.606 | AUC nan
+  Assembly 6 classes  SMOTE  CatBoost            bal 0.566 | acc 0.592 | kappa 0.457 | F1 0.541 | AUC nan
+  Assembly 6 classes  sem    CatBoost            bal 0.554 | acc 0.555 | kappa 0.424 | F1 0.507 | AUC nan
+  Assembly Binario    SMOTE  Logistic Regression bal 0.729 | acc 0.750 | kappa 0.410 | F1 0.701 | AUC 0.782
+  Assembly Binario    sem    Logistic Regression bal 0.724 | acc 0.739 | kappa 0.394 | F1 0.692 | AUC 0.778
+  C        3 classes  SMOTE  CatBoost            bal 0.647 | acc 0.667 | kappa 0.453 | F1 0.634 | AUC nan
+  C        3 classes  sem    Random Forest       bal 0.646 | acc 0.670 | kappa 0.455 | F1 0.634 | AUC nan
+  C        6 classes  SMOTE  Logistic Regression bal 0.535 | acc 0.483 | kappa 0.353 | F1 0.450 | AUC nan
+  C        6 classes  sem    Logistic Regression bal 0.533 | acc 0.464 | kappa 0.338 | F1 0.434 | AUC nan
+  C        Binario    SMOTE  Random Forest       bal 0.710 | acc 0.796 | kappa 0.433 | F1 0.714 | AUC 0.763
+  C        Binario    sem    Random Forest       bal 0.721 | acc 0.811 | kappa 0.462 | F1 0.729 | AUC 0.772
+
+  Checagem: max |bal_acc v23 - v21| = 0.000000
+
+  CatBoost especificamente:
+  Assembly 3 classes  SMOTE  0.609 +/- 0.087
+  Assembly 3 classes  sem    0.615 +/- 0.082
+  Assembly 6 classes  SMOTE  0.566 +/- 0.092
+  Assembly 6 classes  sem    0.554 +/- 0.088
+  Assembly Binario    SMOTE  0.691 +/- 0.080
+  Assembly Binario    sem    0.665 +/- 0.073
+  C        3 classes  SMOTE  0.647 +/- 0.070
+  C        3 classes  sem    0.641 +/- 0.076
+  C        6 classes  SMOTE  0.495 +/- 0.094
+  C        6 classes  sem    0.496 +/- 0.097
+  C        Binario    SMOTE  0.699 +/- 0.073
+  C        Binario    sem    0.693 +/- 0.082
+
+  Tempo total: 581s

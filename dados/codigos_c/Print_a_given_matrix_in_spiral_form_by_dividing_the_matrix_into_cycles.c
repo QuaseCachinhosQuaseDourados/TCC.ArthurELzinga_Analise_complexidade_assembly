@@ -1,0 +1,69 @@
+/* Problema: Print a given matrix in spiral form by dividing the matrix into cycles:
+ * Complexidade de Tempo: O(M*N)
+ * Complexidade de Espaco: O(1)
+ * Fonte: https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+ */
+
+// C program to print the array in a
+// spiral form
+
+#include <stdio.h>
+#define R 4
+#define C 4
+
+voidspiralPrint(intm, intn, inta[R][C])
+{
+    inti, k = 0, l = 0;
+
+    /*  k - starting row index
+        m - ending row index
+        l - starting column index
+        n - ending column index
+        i - iterator
+    */
+
+    while(k < m && l < n) {
+        /* Print the first row from the remaining rows */
+        for(i = l; i < n; ++i) {
+            printf("%d ", a[k][i]);
+        }
+        k++;
+
+        /* Print the last column from the remaining columns
+         */
+        for(i = k; i < m; ++i) {
+            printf("%d ", a[i][n - 1]);
+        }
+        n--;
+
+        /* Print the last row from the remaining rows */
+        if(k < m) {
+            for(i = n - 1; i >= l; --i) {
+                printf("%d ", a[m - 1][i]);
+            }
+            m--;
+        }
+
+        /* Print the first column from the remaining columns
+         */
+        if(l < n) {
+            for(i = m - 1; i >= k; --i) {
+                printf("%d ", a[i][l]);
+            }
+            l++;
+        }
+    }
+}
+
+/* Driver Code */
+intmain()
+{
+    inta[R][C] = { { 1, 2, 3, 4 },
+                    { 5, 6, 7, 8 },
+                    { 9, 10, 11, 12 },
+                    { 13, 14, 15, 16 } };
+
+    // Function Call
+    spiralPrint(R, C, a);
+    return0;
+}

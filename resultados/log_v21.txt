@@ -1,0 +1,134 @@
+
+==============================================================================
+  Assembly | 6 classes | 189 amostras | 18 features | 5x20
+  classes: {'Linear': np.int64(79), 'Polinomial': np.int64(40), 'O(n log n)': np.int64(22), 'Logaritmica': np.int64(20), 'Constante': np.int64(20), 'Exponencial': np.int64(8)}
+==============================================================================
+  [sem  ] Random Forest       : bal.acc 0.531 +/- 0.097 | F1-macro 0.514  (7s)
+  [sem  ] Gradient Boosting   : bal.acc 0.471 +/- 0.106 | F1-macro 0.476  (12s)
+  [sem  ] SVM (RBF)           : bal.acc 0.485 +/- 0.088 | F1-macro 0.451  (0s)
+  [sem  ] Logistic Regression : bal.acc 0.489 +/- 0.089 | F1-macro 0.413  (0s)
+  [sem  ] LightGBM            : bal.acc 0.499 +/- 0.097 | F1-macro 0.491  (2s)
+  [sem  ] CatBoost            : bal.acc 0.554 +/- 0.088 | F1-macro 0.507  (4s)
+  [SMOTE] Random Forest       : bal.acc 0.535 +/- 0.098 | F1-macro 0.522  (4s)
+  [SMOTE] Gradient Boosting   : bal.acc 0.509 +/- 0.094 | F1-macro 0.507  (23s)
+  [SMOTE] SVM (RBF)           : bal.acc 0.471 +/- 0.086 | F1-macro 0.450  (0s)
+  [SMOTE] Logistic Regression : bal.acc 0.501 +/- 0.091 | F1-macro 0.437  (0s)
+  [SMOTE] LightGBM            : bal.acc 0.513 +/- 0.094 | F1-macro 0.509  (3s)
+  [SMOTE] CatBoost            : bal.acc 0.566 +/- 0.092 | F1-macro 0.541  (15s)
+
+==============================================================================
+  Assembly | 3 classes | 189 amostras | 18 features | 5x20
+  classes: {'Linear': np.int64(101), 'Custoso': np.int64(48), 'Sublinear': np.int64(40)}
+==============================================================================
+  [sem  ] Random Forest       : bal.acc 0.596 +/- 0.090 | F1-macro 0.604  (3s)
+  [sem  ] Gradient Boosting   : bal.acc 0.598 +/- 0.080 | F1-macro 0.610  (6s)
+  [sem  ] SVM (RBF)           : bal.acc 0.565 +/- 0.083 | F1-macro 0.558  (0s)
+  [sem  ] Logistic Regression : bal.acc 0.603 +/- 0.084 | F1-macro 0.575  (0s)
+  [sem  ] LightGBM            : bal.acc 0.595 +/- 0.087 | F1-macro 0.592  (1s)
+  [sem  ] CatBoost            : bal.acc 0.615 +/- 0.082 | F1-macro 0.606  (2s)
+  [SMOTE] Random Forest       : bal.acc 0.617 +/- 0.081 | F1-macro 0.617  (3s)
+  [SMOTE] Gradient Boosting   : bal.acc 0.604 +/- 0.086 | F1-macro 0.606  (8s)
+  [SMOTE] SVM (RBF)           : bal.acc 0.550 +/- 0.082 | F1-macro 0.550  (0s)
+  [SMOTE] Logistic Regression : bal.acc 0.610 +/- 0.084 | F1-macro 0.583  (0s)
+  [SMOTE] LightGBM            : bal.acc 0.584 +/- 0.093 | F1-macro 0.586  (1s)
+  [SMOTE] CatBoost            : bal.acc 0.609 +/- 0.087 | F1-macro 0.607  (5s)
+
+==============================================================================
+  Assembly | Binario | 189 amostras | 18 features | 5x20
+  classes: {'Eficiente': np.int64(141), 'Ineficiente': np.int64(48)}
+==============================================================================
+  [sem  ] Random Forest       : bal.acc 0.657 +/- 0.069 | F1-macro 0.666  (3s)
+  [sem  ] Gradient Boosting   : bal.acc 0.631 +/- 0.074 | F1-macro 0.638  (2s)
+  [sem  ] SVM (RBF)           : bal.acc 0.706 +/- 0.083 | F1-macro 0.694  (0s)
+  [sem  ] Logistic Regression : bal.acc 0.724 +/- 0.070 | F1-macro 0.692  (0s)
+  [sem  ] LightGBM            : bal.acc 0.685 +/- 0.081 | F1-macro 0.676  (0s)
+  [sem  ] CatBoost            : bal.acc 0.665 +/- 0.073 | F1-macro 0.668  (2s)
+  [SMOTE] Random Forest       : bal.acc 0.676 +/- 0.077 | F1-macro 0.681  (4s)
+  [SMOTE] Gradient Boosting   : bal.acc 0.683 +/- 0.080 | F1-macro 0.686  (4s)
+  [SMOTE] SVM (RBF)           : bal.acc 0.710 +/- 0.078 | F1-macro 0.709  (0s)
+  [SMOTE] Logistic Regression : bal.acc 0.729 +/- 0.071 | F1-macro 0.701  (0s)
+  [SMOTE] LightGBM            : bal.acc 0.702 +/- 0.072 | F1-macro 0.708  (0s)
+  [SMOTE] CatBoost            : bal.acc 0.691 +/- 0.080 | F1-macro 0.697  (3s)
+
+==============================================================================
+  C | 6 classes | 229 amostras | 15 features | 5x20
+  classes: {'Linear': np.int64(95), 'Polinomial': np.int64(49), 'O(n log n)': np.int64(30), 'Constante': np.int64(25), 'Logaritmica': np.int64(22), 'Exponencial': np.int64(8)}
+==============================================================================
+  [sem  ] Random Forest       : bal.acc 0.465 +/- 0.093 | F1-macro 0.447  (3s)
+  [sem  ] Gradient Boosting   : bal.acc 0.418 +/- 0.068 | F1-macro 0.424  (13s)
+  [sem  ] SVM (RBF)           : bal.acc 0.514 +/- 0.104 | F1-macro 0.457  (0s)
+  [sem  ] Logistic Regression : bal.acc 0.533 +/- 0.085 | F1-macro 0.434  (0s)
+  [sem  ] LightGBM            : bal.acc 0.436 +/- 0.073 | F1-macro 0.429  (2s)
+  [sem  ] CatBoost            : bal.acc 0.496 +/- 0.097 | F1-macro 0.461  (3s)
+  [SMOTE] Random Forest       : bal.acc 0.488 +/- 0.093 | F1-macro 0.467  (4s)
+  [SMOTE] Gradient Boosting   : bal.acc 0.463 +/- 0.086 | F1-macro 0.455  (21s)
+  [SMOTE] SVM (RBF)           : bal.acc 0.455 +/- 0.096 | F1-macro 0.419  (0s)
+  [SMOTE] Logistic Regression : bal.acc 0.535 +/- 0.092 | F1-macro 0.450  (0s)
+  [SMOTE] LightGBM            : bal.acc 0.452 +/- 0.085 | F1-macro 0.445  (3s)
+  [SMOTE] CatBoost            : bal.acc 0.495 +/- 0.094 | F1-macro 0.472  (16s)
+
+==============================================================================
+  C | 3 classes | 229 amostras | 15 features | 5x20
+  classes: {'Linear': np.int64(125), 'Custoso': np.int64(57), 'Sublinear': np.int64(47)}
+==============================================================================
+  [sem  ] Random Forest       : bal.acc 0.646 +/- 0.075 | F1-macro 0.634  (4s)
+  [sem  ] Gradient Boosting   : bal.acc 0.588 +/- 0.070 | F1-macro 0.594  (9s)
+  [sem  ] SVM (RBF)           : bal.acc 0.606 +/- 0.062 | F1-macro 0.588  (0s)
+  [sem  ] Logistic Regression : bal.acc 0.589 +/- 0.066 | F1-macro 0.542  (0s)
+  [sem  ] LightGBM            : bal.acc 0.596 +/- 0.077 | F1-macro 0.586  (1s)
+  [sem  ] CatBoost            : bal.acc 0.641 +/- 0.076 | F1-macro 0.621  (3s)
+  [SMOTE] Random Forest       : bal.acc 0.644 +/- 0.070 | F1-macro 0.629  (4s)
+  [SMOTE] Gradient Boosting   : bal.acc 0.617 +/- 0.068 | F1-macro 0.614  (11s)
+  [SMOTE] SVM (RBF)           : bal.acc 0.590 +/- 0.068 | F1-macro 0.579  (0s)
+  [SMOTE] Logistic Regression : bal.acc 0.583 +/- 0.070 | F1-macro 0.541  (0s)
+  [SMOTE] LightGBM            : bal.acc 0.602 +/- 0.073 | F1-macro 0.602  (1s)
+  [SMOTE] CatBoost            : bal.acc 0.647 +/- 0.070 | F1-macro 0.634  (6s)
+
+==============================================================================
+  C | Binario | 229 amostras | 15 features | 5x20
+  classes: {'Eficiente': np.int64(172), 'Ineficiente': np.int64(57)}
+==============================================================================
+  [sem  ] Random Forest       : bal.acc 0.721 +/- 0.068 | F1-macro 0.729  (4s)
+  [sem  ] Gradient Boosting   : bal.acc 0.679 +/- 0.078 | F1-macro 0.688  (3s)
+  [sem  ] SVM (RBF)           : bal.acc 0.664 +/- 0.079 | F1-macro 0.640  (0s)
+  [sem  ] Logistic Regression : bal.acc 0.663 +/- 0.073 | F1-macro 0.634  (0s)
+  [sem  ] LightGBM            : bal.acc 0.687 +/- 0.075 | F1-macro 0.674  (0s)
+  [sem  ] CatBoost            : bal.acc 0.693 +/- 0.082 | F1-macro 0.684  (3s)
+  [SMOTE] Random Forest       : bal.acc 0.710 +/- 0.069 | F1-macro 0.714  (4s)
+  [SMOTE] Gradient Boosting   : bal.acc 0.695 +/- 0.079 | F1-macro 0.693  (4s)
+  [SMOTE] SVM (RBF)           : bal.acc 0.658 +/- 0.076 | F1-macro 0.640  (0s)
+  [SMOTE] Logistic Regression : bal.acc 0.667 +/- 0.077 | F1-macro 0.639  (0s)
+  [SMOTE] LightGBM            : bal.acc 0.687 +/- 0.076 | F1-macro 0.686  (0s)
+  [SMOTE] CatBoost            : bal.acc 0.699 +/- 0.073 | F1-macro 0.698  (4s)
+
+==============================================================================
+  RESUMO - melhor modelo por cenario (bal.acc, 5x20=100 avaliacoes)
+==============================================================================
+  Assembly 3 classes  SMOTE  Random Forest       0.617 +/- 0.081
+  Assembly 3 classes  sem    CatBoost            0.615 +/- 0.082
+  Assembly 6 classes  SMOTE  CatBoost            0.566 +/- 0.092
+  Assembly 6 classes  sem    CatBoost            0.554 +/- 0.088
+  Assembly Binario    SMOTE  Logistic Regression 0.729 +/- 0.071
+  Assembly Binario    sem    Logistic Regression 0.724 +/- 0.070
+  C        3 classes  SMOTE  CatBoost            0.647 +/- 0.070
+  C        3 classes  sem    Random Forest       0.646 +/- 0.075
+  C        6 classes  SMOTE  Logistic Regression 0.535 +/- 0.092
+  C        6 classes  sem    Logistic Regression 0.533 +/- 0.085
+  C        Binario    SMOTE  Random Forest       0.710 +/- 0.069
+  C        Binario    sem    Random Forest       0.721 +/- 0.068
+
+  CatBoost especificamente:
+  Assembly 3 classes  SMOTE  0.609 +/- 0.087
+  Assembly 3 classes  sem    0.615 +/- 0.082
+  Assembly 6 classes  SMOTE  0.566 +/- 0.092
+  Assembly 6 classes  sem    0.554 +/- 0.088
+  Assembly Binario    SMOTE  0.691 +/- 0.080
+  Assembly Binario    sem    0.665 +/- 0.073
+  C        3 classes  SMOTE  0.647 +/- 0.070
+  C        3 classes  sem    0.641 +/- 0.076
+  C        6 classes  SMOTE  0.495 +/- 0.094
+  C        6 classes  sem    0.496 +/- 0.097
+  C        Binario    SMOTE  0.699 +/- 0.073
+  C        Binario    sem    0.693 +/- 0.082
+
+  Tempo total: 247s
